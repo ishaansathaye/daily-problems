@@ -11,7 +11,7 @@ def solution(inputArray):
             max_product = product
     return max_product
 
-#concise solution
+'''concise solution - use list comprehension'''
 def solution2(inputArray):
     return max([inputArray[i] * inputArray[i+1] for i in range(len(inputArray)-1)])
 
