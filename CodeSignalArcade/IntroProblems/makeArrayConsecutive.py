@@ -17,3 +17,6 @@ def solution(statues):
 statues = [5, 4, 6]
 print(solution(statues))
 
+#concise solution
+def solution(statues):
+    return max(statues) - min(statues) - len(statues) + 1
