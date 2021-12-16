@@ -8,14 +8,12 @@
 def solution(statues):
     counter = 0
     statues.sort()
-    print(statues)
     for i in range(len(statues)-1):
         if statues[i]+1 != statues[i+1]:
-            statues.insert(i+1, statues[i]+1)
-            counter += 1
-    print(statues)
+            counter = counter + ((statues[i+1] - statues[i]) - 1)
     return counter
 
-statues = [6, 2, 3, 8]
-# statues = [5, 4, 6]
+# statues = [6, 2, 3, 8]
+statues = [5, 4, 6]
 print(solution(statues))
+
