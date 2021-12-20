@@ -22,3 +22,5 @@
 - Use ```sorted()``` instead of ```.sort()```
     - Can put list comprehension inside of ```sorted()```
 - **Use ```enumerate()``` for finding element and index at the same time**
+
+Stopped Concepts Recording before reverseInParentheses
