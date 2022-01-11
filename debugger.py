@@ -22,14 +22,35 @@ def differsByOne(s1, s2):
             differentChars += 1
     return differentChars == 1
 
-print()
-print(alt_solution_help(["aa", "ab", "bb"])) #True
-print(alt_solution_help(["aba", "bbb", "bab"])) #False
-print(alt_solution_help(["ab", "bb", "aa"])) #True 
-print(alt_solution_help(["q", "q"])) #False
-print(alt_solution_help(["abc", "bef", "bcc", "bec", "bbc", "bdc"])) #True -> ["abc", "bbc", "bdc", "bcc", "bec", "bef"]
-print(alt_solution_help(["ff", "gf", "af", "ar", "hf"])) #True
-print(alt_solution_help(["ab", "ad", "ef", "eg"])) #False
-print(alt_solution_help(["abc", "abx", "axx", "abc"])) #False
-print(alt_solution_help(["abc", "abx", "axx", "abx", "abc"])) #True
-print()
+# print()
+# print(alt_solution_help(["aa", "ab", "bb"])) #True
+# print(alt_solution_help(["aba", "bbb", "bab"])) #False
+# print(alt_solution_help(["ab", "bb", "aa"])) #True 
+# print(alt_solution_help(["q", "q"])) #False
+# print(alt_solution_help(["abc", "bef", "bcc", "bec", "bbc", "bdc"])) #True -> ["abc", "bbc", "bdc", "bcc", "bec", "bef"]
+# print(alt_solution_help(["ff", "gf", "af", "ar", "hf"])) #True
+# print(alt_solution_help(["ab", "ad", "ef", "eg"])) #False
+# print(alt_solution_help(["abc", "abx", "axx", "abc"])) #False
+# print(alt_solution_help(["abc", "abx", "axx", "abx", "abc"])) #True
+# print()
+
+from itertools import permutations as p
+def solution(inputArray):
+    for ia in p(inputArray):
+        c = 0
+        for i in range(len(ia) - 1):
+            for j in range(len(ia[i])):
+                if ia[i][j] != ia[i+1][j]: c += 1
+            if ia[i] == ia[i+1]: c += 10
+        if c == len(ia) - 1: return True
+    return False
+
+print(solution(["aa", "ab", "bb"])) #True
+print(solution(["aba", "bbb", "bab"])) #False
+print(solution(["ab", "bb", "aa"])) #True 
+print(solution(["q", "q"])) #False
+print(solution(["abc", "bef", "bcc", "bec", "bbc", "bdc"])) #True -> ["abc", "bbc", "bdc", "bcc", "bec", "bef"]
+print(solution(["ff", "gf", "af", "ar", "hf"])) #True
+print(solution(["ab", "ad", "ef", "eg"])) #False
+print(solution(["abc", "abx", "axx", "abc"])) #False
+print(solution(["abc", "abx", "axx", "abx", "abc"])) #True
