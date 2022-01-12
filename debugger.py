@@ -45,12 +45,12 @@ def solution(inputArray):
         if c == len(ia) - 1: return True
     return False
 
-print(solution(["aa", "ab", "bb"])) #True
-print(solution(["aba", "bbb", "bab"])) #False
-print(solution(["ab", "bb", "aa"])) #True 
-print(solution(["q", "q"])) #False
-print(solution(["abc", "bef", "bcc", "bec", "bbc", "bdc"])) #True -> ["abc", "bbc", "bdc", "bcc", "bec", "bef"]
-print(solution(["ff", "gf", "af", "ar", "hf"])) #True
-print(solution(["ab", "ad", "ef", "eg"])) #False
-print(solution(["abc", "abx", "axx", "abc"])) #False
-print(solution(["abc", "abx", "axx", "abx", "abc"])) #True
+# print(solution(["aa", "ab", "bb"])) #True
+# print(solution(["aba", "bbb", "bab"])) #False
+# print(solution(["ab", "bb", "aa"])) #True 
+# print(solution(["q", "q"])) #False
+# print(solution(["abc", "bef", "bcc", "bec", "bbc", "bdc"])) #True -> ["abc", "bbc", "bdc", "bcc", "bec", "bef"]
+# print(solution(["ff", "gf", "af", "ar", "hf"])) #True
+# print(solution(["ab", "ad", "ef", "eg"])) #False
+# print(solution(["abc", "abx", "axx", "abc"])) #False
+# print(solution(["abc", "abx", "axx", "abx", "abc"])) #True
