@@ -54,3 +54,11 @@ def solution(inputArray):
 # print(solution(["ab", "ad", "ef", "eg"])) #False
 # print(solution(["abc", "abx", "axx", "abc"])) #False
 # print(solution(["abc", "abx", "axx", "abx", "abc"])) #True
+
+def solution(n, counter=0):
+    if len(str(n)) == 1:
+        return 0
+    counter = solution(sum([int(i) for i in str(n)]), counter) + 1
+    return counter
+
+# print(solution(91))
