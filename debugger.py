@@ -62,3 +62,22 @@ def solution(n, counter=0):
     return counter
 
 # print(solution(91))
+
+def solution(s):
+    if s.count('-') == 5:
+        s_list = s.split('-')
+        for i in s_list:
+            if len(i) != 2:
+                return False
+        s_list = "".join(s_list)
+        for i in s_list:
+            if i.isdigit():
+                if int(i) < 0 or int(i) > 9:
+                    return False
+            elif i.isalpha():
+                if ord(i) < 65 or ord(i) > 70:
+                    return False
+        return True
+
+# print(solution("00-1B-63-84-45-E6"))
+# print(solution("Z1-1B-63-84-45-E6"))
