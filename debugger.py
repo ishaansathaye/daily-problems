@@ -81,3 +81,25 @@ def solution(s):
 
 # print(solution("00-1B-63-84-45-E6"))
 # print(solution("Z1-1B-63-84-45-E6"))
+
+def solution(s):
+    s_list = list(s)
+    indices = []
+    prev = ""
+    for i in range(len(s)):
+        if prev != s[i] and prev != "":
+            indices.append(i)
+        prev = s[i]
+    offset = 0
+    for i in indices:
+        s_list.insert(i+offset, " ")
+        offset += 1
+    s_list = "".join(s_list)
+    s_list = s_list.split(" ")
+    for i in range(len(s_list)):
+        if len(s_list[i]) > 1:
+            s_list[i] = str(len(s_list[i])) + s_list[i][0]
+    return "".join(s_list)
+    
+print(solution("aabbbc"))
+print(solution("abbcabb"))
