@@ -101,5 +101,21 @@ def solution(s):
             s_list[i] = str(len(s_list[i])) + s_list[i][0]
     return "".join(s_list)
     
-print(solution("aabbbc"))
-print(solution("abbcabb"))
+# print(solution("aabbbc"))
+# print(solution("abbcabb"))
+
+def solution(text):
+    new_text = list(text)
+    for i in range(len(new_text)):
+        if not new_text[i].isalpha():
+            new_text[i] = " "
+    new_text = "".join(new_text)
+    text = new_text.split(" ")
+    text = [i for i in text if i != ""]
+    lengths_list = [len(i) for i in text]
+    return text[lengths_list.index(max(lengths_list))]
+    
+
+print(solution("Ready, steady, go!"))
+print(solution("ABCd"))
+print(solution("To be or not to be"))
