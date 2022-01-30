@@ -129,4 +129,25 @@ def solution(p):
         if a == p: return i
     return -1
 
+# print(solution(12))
+
+def solution(p):
+    if p == 0:
+        return 10
+    elif p == 1:
+        return 1
+    n = []
+    while 1 < p:
+        for d in range(9, 1, -1):
+            if p % d == 0:
+                p /= d
+                n.append(d)
+                break
+        else:
+            return -1
+    return int(''.join(map(str, sorted(n))))
+
 print(solution(12))
+print(solution(19))
+print(solution(600))
+print(solution(450))
