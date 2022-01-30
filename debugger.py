@@ -116,6 +116,17 @@ def solution(text):
     return text[lengths_list.index(max(lengths_list))]
     
 
-print(solution("Ready, steady, go!"))
-print(solution("ABCd"))
-print(solution("To be or not to be"))
+# print(solution("Ready, steady, go!"))
+# print(solution("ABCd"))
+# print(solution("To be or not to be"))
+
+def solution(p):
+    if p == 0: return 10
+    for i in range(3600):
+        a = 1
+        for j in str(i):
+            a *= int(j)
+        if a == p: return i
+    return -1
+
+print(solution(12))
