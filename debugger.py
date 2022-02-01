@@ -147,7 +147,29 @@ def solution(p):
             return -1
     return int(''.join(map(str, sorted(n))))
 
-print(solution(12))
-print(solution(19))
-print(solution(600))
-print(solution(450))
+# print(solution(12))
+# print(solution(19))
+# print(solution(600))
+# print(solution(450))
+
+def solution(names):
+    temp = []
+    for i in range(len(names)):
+        k = 1
+        old = names[i]
+        if names[i] not in temp:
+            temp.append(names[i])
+        else:
+            while names[i] in temp:
+                names[i] = old + "(" + str(k) + ")"
+                k += 1
+        if names[i] not in temp:
+            temp.append(names[i])
+    return names
+
+# print(solution(["doc", "doc", "image", "doc(1)", "doc"]))
+# print(solution(["a(1)", "a(6)", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a"]))
+# print('["a(1)", "a(6)", "a", "a(2)", "a(3)", "a(4)", "a(5)", "a(7)", "a(8)", "a(9)", "a(10)", "a(11)"]')
+print(["dd", "dd(1)", "dd(2)", "dd", "dd(1)", "dd(1)(2)", "dd(1)(1)", "dd", "dd(1)"])
+print(solution(["dd", "dd(1)", "dd(2)", "dd", "dd(1)", "dd(1)(2)", "dd(1)(1)", "dd", "dd(1)"]))
+print(["dd", "dd(1)", "dd(2)", "dd(3)", "dd(1)(1)", "dd(1)(2)", "dd(1)(1)(1)", "dd(4)", "dd(1)(3)"])
