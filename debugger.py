@@ -170,6 +170,64 @@ def solution(names):
 # print(solution(["doc", "doc", "image", "doc(1)", "doc"]))
 # print(solution(["a(1)", "a(6)", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a"]))
 # print('["a(1)", "a(6)", "a", "a(2)", "a(3)", "a(4)", "a(5)", "a(7)", "a(8)", "a(9)", "a(10)", "a(11)"]')
-print(["dd", "dd(1)", "dd(2)", "dd", "dd(1)", "dd(1)(2)", "dd(1)(1)", "dd", "dd(1)"])
-print(solution(["dd", "dd(1)", "dd(2)", "dd", "dd(1)", "dd(1)(2)", "dd(1)(1)", "dd", "dd(1)"]))
-print(["dd", "dd(1)", "dd(2)", "dd(3)", "dd(1)(1)", "dd(1)(2)", "dd(1)(1)(1)", "dd(4)", "dd(1)(3)"])
+# print(["dd", "dd(1)", "dd(2)", "dd", "dd(1)", "dd(1)(2)", "dd(1)(1)", "dd", "dd(1)"])
+# print(solution(["dd", "dd(1)", "dd(2)", "dd", "dd(1)", "dd(1)(2)", "dd(1)(1)", "dd", "dd(1)"]))
+# print(["dd", "dd(1)", "dd(2)", "dd(3)", "dd(1)(1)", "dd(1)(2)", "dd(1)(1)(1)", "dd(4)", "dd(1)(3)"])
+
+def print_matrix(matrix):
+    for i in range(len(matrix)):
+        print(matrix[i])
+    
+def solution(n):
+    matrix = []
+    temp = []
+    for i in range(n):
+        for j in range(n):
+            temp.append('-')
+        matrix.append(temp)
+        temp = []
+
+    row, col = 0, 0
+    row_step, col_step = 1, 1
+    stop = n
+    iterator = 'c'
+    counter = 0
+    for z in range(0, (n*2)-1):
+        if iterator == 'c':
+            for i in range(col, stop, col_step):
+                if matrix[row][i] != '-':
+                    break
+                counter += 1
+                matrix[row][i] = counter
+                previous = i
+            iterator = 'r'
+            col = previous
+            if row >= n-1 or matrix[row+1][col] != '-':
+                row -= 1
+                stop = -1
+                row_step = -1
+            else:
+                row += 1
+                stop = n
+                row_step = 1
+        else:
+            for i in range(row, stop, row_step):
+                if matrix[i][col] != '-':
+                    break
+                counter += 1
+                matrix[i][col] = counter
+                previous = i
+            iterator = 'c'
+            row = previous
+            if col >= n-1 or matrix[row][col+1] != '-':
+                col -= 1
+                stop = -1
+                col_step = -1
+            else:
+                col += 1
+                stop = n
+                col_step = 1
+    return matrix
+
+# print(solution(3))
+# print_matrix(solution(2))
