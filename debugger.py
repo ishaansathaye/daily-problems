@@ -231,3 +231,42 @@ def solution(n):
 
 # print(solution(3))
 # print_matrix(solution(2))
+
+def solution(grid):
+    checks = []
+    numbers = [i for i in range(1, 10)]
+    for row in range(len(grid)):
+        print(grid[row])
+        if not all(item in numbers for item in grid[row]):
+            checks.append(0)
+    
+    for col in range(len(grid[0])):
+        temp_col = []
+        for row in range(len(grid)):
+            temp_col.append(grid[row][col])
+        if not all(item in temp_col for item in numbers):
+            checks.append(0)
+            break
+    
+    grid_3 = []
+    for row in range(1):
+        for col in range(0, 1):
+            grid_3 += [grid[row][col], grid[row][col+1], grid[row][col+2]]
+            grid_3 += [grid[row+1][col], grid[row+1][col+1], grid[row+1][col+2]]
+            grid_3 += [grid[row+2][col], grid[row+2][col+1], grid[row+2][col+2]]
+        if not all(item in grid_3 for item in numbers):
+            checks.append(0)
+            break
+        
+    return sum(checks) == []
+
+# print(solution(
+# [[1,3,2,5,4,6,9,2,7], 
+#  [4,6,5,8,7,9,3,8,1], 
+#  [7,9,8,2,1,3,6,5,4], 
+#  [9,2,1,4,3,5,8,7,6], 
+#  [3,5,4,7,6,8,2,1,9], 
+#  [6,8,7,1,9,2,5,4,3], 
+#  [5,7,6,9,8,1,4,3,2], 
+#  [2,4,3,6,5,7,1,9,8], 
+#  [8,1,9,3,2,4,7,6,5]]))
