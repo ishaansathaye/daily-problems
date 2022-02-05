@@ -1,12 +1,12 @@
 # Daily Problems
 
 ## Templates:
-```
+```markdown
 <mark>Alternate Solution</mark>
 
 <p align="center"><img src="Images/matrixSum.png" width="500"></p>
 ```
-## Concepts:
+## Intro Concepts:
 - Concise Coding -> **using list comprehension**
     - Can use *built-in* functions on list comprehensions
 - Scratch Paper -> for combinations and math
