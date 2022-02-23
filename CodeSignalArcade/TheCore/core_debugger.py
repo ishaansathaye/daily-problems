@@ -22,4 +22,33 @@ def solution(min1, min2_10, min11, s):
 # print(solution(10,1,2,22))
 # print(solution(1,2,1,6))
 # print(solution(10, 10, 10, 8))
-print(solution(2,2,1,2))
+# print(solution(2,2,1,2))
+
+def solution(commands):
+    s1=s2=1
+    directionsL = [1,2,-1,-2]
+    directionsR = [1,-2,-1,2]
+    iterator = 0
+    same = 0
+    for i in commands:
+        if i == 'L':
+            iterator += 1
+            if iterator > 3:
+                iterator = 0
+            s1 = directionsL[iterator]
+            s2 = directionsR[iterator]
+        elif i == 'A':
+            s1 *= -1
+            s2 *= -1
+            iterator = directionsR.index(s1)
+        elif i == 'R':
+            iterator += 1
+            if iterator > 3:
+                iterator = 0
+            s1 = directionsR[iterator]
+            s2 = directionsL[iterator]
+        if s1 == s2:
+            same += 1
+    return same
+
+print(solution("LLARL")) #3
