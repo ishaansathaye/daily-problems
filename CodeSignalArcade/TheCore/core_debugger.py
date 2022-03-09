@@ -65,7 +65,38 @@ def solution(candlesNumber, makeNew):
             break
     return candles
 
-print(solution(5,2)) #9
-print(solution(15, 5)) #18
-print(solution(14, 3)) #20
-print(solution(12, 2)) #23
+# print(solution(5,2)) #9
+# print(solution(15, 5)) #18
+# print(solution(14, 3)) #20
+# print(solution(12, 2)) #23
+
+def solution(n):
+    list_num = []
+    list_num.append(n)
+    next_elem = calc_elem(n)
+    while True:
+        list_num.append(next_elem)
+        prev_elem = next_elem
+        next_elem = calc_elem(next_elem)
+        if next_elem == prev_elem and next_elem != 1:
+            list_num.append(next_elem)
+            break
+        elif next_elem in list_num and next_elem != 1:
+            list_num.append(next_elem)
+            break
+        elif list_num.count(1) == 2:
+            break
+    return list_num
+
+def calc_elem(n):
+    n_length = len(str(n))
+    new_n = 0
+    for i in range(n_length):
+        new_n += (n%10)**2
+        n = n//10
+    return new_n
+
+# print(solution(16))
+# print(solution(103))
+print(solution(1))
+print(solution(612))
