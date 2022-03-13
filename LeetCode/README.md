@@ -1,6 +1,5 @@
 # LeetCode Problems
 
-| Syntax | Description |
-| --- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Number | Problem | Solution | Difficulty
+| --- | ----------- |---- | ----- |
+| 1 | [Two Sum]() | [Python](twoSum.py) | Easy

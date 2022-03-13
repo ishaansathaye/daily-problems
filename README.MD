@@ -1,1 +1,1 @@
-# CodeSignal Daily Problems and LeetCode Problems
+# Daily CodeSignal Problems and LeetCode Problems
