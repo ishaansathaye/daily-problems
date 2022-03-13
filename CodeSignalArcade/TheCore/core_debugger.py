@@ -98,5 +98,33 @@ def calc_elem(n):
 
 # print(solution(16))
 # print(solution(103))
-print(solution(1))
-print(solution(612))
+# print(solution(1))
+# print(solution(612))
+
+def solution(n):
+    weak_dict = find_weakness(n)
+    max_weakness = max(weak_dict.values())
+    return [max_weakness, list(weak_dict.values()).count(max_weakness)]
+
+def find_weakness(x):
+    divisors_dict = find_divisors(x)
+    weakness = {}
+    for i in range(1, x+1):
+        weak_count = 0
+        for j in range(1, i+1):
+            if j < x and divisors_dict[str(j)] > divisors_dict[str(i)]:
+                weak_count += 1
+        weakness[str(i)] = weak_count
+    return weakness
+
+def find_divisors(n):
+    divisors = {}
+    for i in range(1, n+1):
+        count = 0
+        for j in range(1, i+1):
+            if i % j == 0:
+                count += 1
+        divisors[str(i)] = count
+    return divisors
+
+print(solution(9))
