@@ -1,1 +1,6 @@
-# LeetCode Problem Concepts
+# LeetCode Problems
+
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
