@@ -31,12 +31,7 @@ class Solution:
         return node_list[0]
 
     #Alternate - 68ms
-    def addTwoNumbersAlt(self, l1, l2):
-        """
-        :type l1: ListNode
-        :type l2: ListNode
-        :rtype: ListNode
-        """
+    def addTwoNumbersAlt(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         result = ListNode(0)
         result_tail = result
         carry = 0
