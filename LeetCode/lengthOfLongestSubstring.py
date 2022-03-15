@@ -31,6 +31,45 @@ class Solution(object):
             max_length = max(len(curr_substr), max_length)
         return max_length
 
+    #Approach 1: Sliding Window --> O(n)
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        chars = [0] * 128 #uses ascii value to define a "hash map"
+
+        left = right = 0
+
+        res = 0
+        while right < len(s):
+            r = s[right]
+            chars[ord(r)] += 1
+
+            while chars[ord(r)] > 1:
+                l = s[left]
+                chars[ord(l)] -= 1
+                left += 1
+
+            res = max(res, right - left + 1)
+
+            right += 1
+        return res
+
+    #Approach 2: Sliding Window Optimized --> O(n) --> less steps
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        n = len(s)
+        ans = 0
+        # mp stores the current index of a character
+        mp = {}
+
+        i = 0
+        # try to extend the range [i, j]
+        for j in range(n):
+            if s[j] in mp:
+                i = max(mp[s[j]], i)
+
+            ans = max(ans, j - i + 1)
+            mp[s[j]] = j + 1
+
+        return ans
+
                 
 
 temp = Solution()
