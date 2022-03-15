@@ -10,21 +10,6 @@ class Solution(object):
         :type l2: ListNode
         :rtype: ListNode
         """
-        # current_node1 = l1[0]
-        # current_node2 = l2[0]
-        # node = ListNode((current_node1.val+current_node2.val)%10)
-        # final_node_list = [node]
-        # max_length = max(len(l1), len(l2))
-        # for i in range(max_length-1):
-        #     add_value = (current_node1.val+current_node2.val)//10
-        #     current_node1 = current_node1.next
-        #     current_node2 = current_node2.next
-        #     next_node_val = (add_value+current_node1.val+current_node2.val)%10
-        #     node = ListNode(next_node_val)
-        #     final_node_list[i].next = node
-        #     final_node_list.append(node)
-        # return final_node_list
-
         l1_num = ""
         while l1 != None:
             l1_num += str(l1.val)
@@ -47,6 +32,55 @@ class Solution(object):
                 head = node
                 node_list.append(node)
         return node_list[0]
+
+    #Alternate - 68ms
+    def addTwoNumbersAlt(self, l1, l2):
+        """
+        :type l1: ListNode
+        :type l2: ListNode
+        :rtype: ListNode
+        """
+        result = ListNode(0)
+        result_tail = result
+        carry = 0
+                
+        while l1 or l2 or carry:            
+            val1  = (l1.val if l1 else 0)
+            val2  = (l2.val if l2 else 0)
+            carry, out = divmod(val1+val2 + carry, 10)    
+                    
+            result_tail.next = ListNode(out)
+            result_tail = result_tail.next                      
+            
+            l1 = (l1.next if l1 else None)
+            l2 = (l2.next if l2 else None)
+            
+        return result.next
+
+    #Can also create multiple functions for the main function to use
+    def to_int(l: ListNode):
+        s = ''
+        while l != None:
+            s += str(l.val)
+            l = l.next
+        return int(s[::-1])
+    
+    def to_list(n: int):
+        s = str(n)[::-1]
+        head = prev = None
+        for ch in s:
+            node = ListNode(int(ch))
+            if prev is not None:
+                prev.next = node
+            prev = node
+            if head is None:
+                head = prev
+        return head
+    
+    def addTwoNumbersAlt2(self, l1: ListNode, l2: ListNode) -> ListNode:
+        a = Solution.to_int(l1)
+        b = Solution.to_int(l2)
+        return Solution.to_list(a + b)
 
 
 # node3 = ListNode(3)
