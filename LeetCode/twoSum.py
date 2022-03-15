@@ -5,6 +5,7 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
+        #92 ms
         int_dict = {}
         for i in range(len(nums)):
             int_dict[str(nums[i])] = (target-nums[i], i)

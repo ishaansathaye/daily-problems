@@ -1,9 +1,6 @@
-class Solution(object):
-    def lengthOfLongestSubstring(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        #118 ms
         char_dict = {}
         curr_substr = ""
         max_length = 0

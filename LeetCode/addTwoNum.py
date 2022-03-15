@@ -1,15 +1,12 @@
 # Definition for singly-linked list.
-class ListNode(object):
+from typing import Optional
+class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
-class Solution(object):
-    def addTwoNumbers(self, l1, l2):
-        """
-        :type l1: ListNode
-        :type l2: ListNode
-        :rtype: ListNode
-        """
+class Solution:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        #107 ms
         l1_num = ""
         while l1 != None:
             l1_num += str(l1.val)
