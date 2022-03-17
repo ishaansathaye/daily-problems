@@ -1,5 +1,10 @@
 from typing import List
 class Solution:
+    #Binary Search Implementation
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+        pass
+    
+    #Inefficient
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         heap = MinHeap()
         conn_list = nums1+nums2
