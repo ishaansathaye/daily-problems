@@ -1,11 +1,71 @@
 from typing import List
 class Solution:
-    #Binary Search Implementation
+    #Binary Search Implementation - 117 ms
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
-        pass
+        f_list = nums1 + nums2
+        even = False
+        if len(f_list) % 2 == 0:
+            target = len(f_list) // 2
+            even = True
+        else:
+            target = len(f_list) // 2
+
+        num_elements = 0
+        i = -1
+        j = -1
+        if len(nums1) == 0:
+            current = nums2[0]
+            j += 1
+        elif len(nums2) == 0:
+            current = nums1[0]
+            i += 1
+        elif nums1[0] < nums2[0]:
+            current = nums1[0]
+            i += 1
+        else:
+            current = nums2[0]
+            j += 1
+        prev = current
+        first_pass = False
+        sec_pass = False
+        
+        while num_elements != target:
+            
+            if i+1 <= len(nums1)-1:
+                diff1 = nums1[i+1] - current
+                first_pass = True
+            if j+1 <= len(nums2)-1:
+                diff2 = nums2[j+1] - current
+                sec_pass = True
+            
+            if first_pass and sec_pass:
+                if diff1 < diff2:
+                    prev = current
+                    current = nums1[i+1]
+                    i += 1
+                else:
+                    prev = current
+                    current = nums2[j+1]
+                    j += 1
+            elif first_pass:
+                prev = current
+                current = nums1[i+1]
+                i += 1
+            elif sec_pass:
+                prev = current
+                current = nums2[j+1]
+                j += 1
+
+            num_elements += 1
+            first_pass = False
+            sec_pass = False
+        if even:
+            return (prev+current)/2
+        else:
+            return current
     
-    #Inefficient
-    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+    #Inefficient - 337 ms
+    def findMedianSortedArrays2(self, nums1: List[int], nums2: List[int]) -> float:
         heap = MinHeap()
         conn_list = nums1+nums2
         heap.heap_sort(conn_list)
@@ -61,5 +121,7 @@ class MinHeap:
 
 temp = Solution()
 # print(temp.findMedianSortedArrays(nums1=[1,2], nums2=[3,4])) #2.5
-print(temp.findMedianSortedArrays(nums1=[1,3], nums2=[2])) #2
-        
+# print(temp.findMedianSortedArrays(nums1=[1,3], nums2=[2])) #2
+# print(temp.findMedianSortedArrays(nums1=[], nums2=[1])) #1
+# print(temp.findMedianSortedArrays(nums1=[1,3], nums2=[2,7])) #2.5
+print(temp.findMedianSortedArrays(nums1=[], nums2=[2,3])) #2.5
