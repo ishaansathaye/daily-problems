@@ -9,7 +9,6 @@ class Solution:
                         max_sub = substring
         return max_sub
 
-
 temp = Solution()
 print(temp.longestPalindrome("babad"))
 print(temp.longestPalindrome("a"))
