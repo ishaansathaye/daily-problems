@@ -9,19 +9,28 @@ class Solution:
     #                     max_sub = substring
     #     return max_sub
     
-    def longestPalindrome(self, s: str) -> str:
-        max_pal = ""
-        current_str = ""
+    def longestPalindrome(self, s: str, max_str="") -> str:
+        if len(s) == 0:
+            return max_str
+        if len(s) == 1 and len(s) > len(max_str):
+            return s
+        if s == s[::-1] and len(s) > len(max_str):
+            return s
+        end = len(s)
         for i in range(len(s)):
-            current_str += s[i]
-            if current_str == current_str[::-1]:
-                if len(current_str) > len(max_pal):
-                    max_pal = current_str
-        return max_pal
+            if len(max_str) >= len(s[i:end-1]):
+                return max_str
+            else:
+                max_str = self.longestPalindrome(s[i:end-1], max_str)
+            end = len(s)+1
+        return max_str
 
 
 temp = Solution()
-print(temp.longestPalindrome("babad"))
-print(temp.longestPalindrome("a"))
-print(temp.longestPalindrome("bb"))
-print(temp.longestPalindrome("cbbd"))
+# print(temp.longestPalindrome("babad"))
+# print(temp.longestPalindrome("a"))
+# print(temp.longestPalindrome("bb"))
+# print(temp.longestPalindrome("cbbd"))
+# print(temp.longestPalindrome("abb"))
+# print(temp.longestPalindrome("xaabacxcabaaxcabaax"))
+print(temp.longestPalindrome("abbcccbbbcaaccbababcbcabca"))
