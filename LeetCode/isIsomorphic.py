@@ -48,12 +48,12 @@ def isIsomorphic(self, s: str, t: str) -> bool:
         if sMap.containsKey(sChar):
             if sMap.get(sChar) != tChar:
                 return False
+        else:
+            if tSet.contains(tChar):
+                return False
             else:
-                if tSet.contains(tChar):
-                    return False
-                else:
-                    sMap.put(sChar, tChar)
-                    tSet.add(tChar)
+                sMap.put(sChar, tChar)
+                tSet.add(tChar)
 
     return True
 
