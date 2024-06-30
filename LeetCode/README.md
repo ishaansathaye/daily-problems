@@ -27,7 +27,7 @@ Mock Interview #1
 | Mock 1-1 | [Find Missing Number in a sorted array](https://youtu.be/LwmckBrlrRs) | [Python](./s30Mock/mock1/mock1-1.py) | - | [Section](./LeetNotes.md#find-missing-number-in-a-sorted-array)
 | Mock 1-2 | [Design Min Heap](https://youtu.be/CR7HVlUs3ls) | [Python](./s30Mock/mock1/mock1-2.py) | - | [Section](./LeetNotes.md#design-min-heap)
 
-Hashing - 1 - TODO: Word Pattern
+Hashing - 1
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](./groupAnagrams.py) | 🟡 | [Section](./LeetNotes.md#group-anagrams)
