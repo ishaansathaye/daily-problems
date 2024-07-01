@@ -58,3 +58,9 @@ DP - 3 - TODO: Minimum Falling Path Sum
 | --- | ----------- |---- | ----- | ------- |
 | 740 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | [Python](./deleteAndEarn.py) | 🟡 | [Section](./LeetNotes.md#delete-and-earn)
 | 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [Python](./minFallingPathSum.py) | 🟡 | [Section](./LeetNotes.md#minimum-falling-path-sum)
+
+Mock Interview #2
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| Mock 2-2 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./s30Mock/mock2/mock2-1.py) | - | [Section](./LeetNotes.md#two-sum)
+| Mock 2-2 | [KnapSack Problem](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/) | [Python](./s30Mock/mock2/mock2-2.py) | - | [Section](./LeetNotes.md#knapsack-problem)

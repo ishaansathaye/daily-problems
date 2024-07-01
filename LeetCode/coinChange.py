@@ -1,3 +1,5 @@
+from typing import List
+
 def coinChange(self, coins: List[int], amount: int) -> int:
     # exhaustive solution in this case is a recursive tree method
     # null case
