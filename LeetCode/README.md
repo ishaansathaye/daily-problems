@@ -64,3 +64,24 @@ Mock Interview #2
 | --- | ----------- |---- | ----- | ------- |
 | Mock 2-2 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./s30Mock/mock2/mock2-1.py) | - | [Section](./LeetNotes.md#two-sum)
 | Mock 2-2 | [KnapSack Problem](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/) | [Python](./s30Mock/mock2/mock2-2.py) | - | [Section](./LeetNotes.md#knapsack-problem)
+
+Array - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Python](./productExceptSelf.py) | 🟡 | [Section](./LeetNotes.md#product-of-array-except-self)
+| 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Python](./findDiagonalOrder.py) | 🟡 | [Section](./LeetNotes.md#diagonal-traverse)
+| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Python](./spiralOrder.py) | 🟡 | [Section](./LeetNotes.md#spiral-matrix)
+
+Array - 2
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Python](./findDisappearedNumbers.py) | 🟢 | [Section](./LeetNotes.md#find-all-numbers-disappeared-in-an-array)
+| 289 | [Game of Life](https://leetcode.com/problems/game-of-life/) | [Python](./gameOfLife.py) | 🟡 | [Section](./LeetNotes.md#game-of-life)
+| --- | [Find Min and Max in an Array](https://www.geeksforgeeks.org/maximum-and-minimum-in-an-array/) | [Python](./findMinMax.py) | - | [Section](./LeetNotes.md#find-min-and-max-in-an-array)
+
+Two Pointers - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Python](./maxArea.py) | 🟡 | [Section](./LeetNotes.md#container-with-most-water)
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | [Python](./threeSum.py) | 🟡 | [Section](./LeetNotes.md#3sum)
+| 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [Python](./sortColors.py) | 🟡 | [Section](./LeetNotes.md#sort-colors)
