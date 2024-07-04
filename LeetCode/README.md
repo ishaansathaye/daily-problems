@@ -7,6 +7,14 @@
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./lengthOfLongestSubstring.py) | 🟡 | [Section](./LeetNotes.md#longest-string-without-repeating-characters)
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./medianSortedArrays.py) | 🔴 | [Section](./LeetNotes.md#median-of-two-sorted-arrays)
 
+PreCourse - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| --- | Implement Stack Using Array | [Exercise 1](https://github.com/ishaansathaye/PreCourse-1/blob/master/Exercise_1.py) | - | -
+| --- | Implement Stack Using Linked List | [Exercise 2](https://github.com/ishaansathaye/PreCourse-1/blob/master/Exercise_2.py) | - | -
+| --- | Implement Singly Linked List | [Exercise 3](https://github.com/ishaansathaye/PreCourse-1/blob/master/Exercise_3.py) | - | -
+
+
 Binary Search - 1
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
