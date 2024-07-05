@@ -93,3 +93,10 @@ Two Pointers - 1
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Python](./maxArea.py) | 🟡 | [Section](./LeetNotes.md#container-with-most-water)
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [Python](./threeSum.py) | 🟡 | [Section](./LeetNotes.md#3sum)
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [Python](./sortColors.py) | 🟡 | [Section](./LeetNotes.md#sort-colors)
+
+Two Pointers - 2
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](./merge.py) | 🟢 | [Section](./LeetNotes.md#merge-sorted-array)
+| 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [Python](./removeDuplicates2.py) | 🟡 | [Section](./LeetNotes.md#remove-duplicates-from-sorted-array-ii)
+| 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](./search2DMatrix2.py) | 🟡 | [Section](./LeetNotes.md#search-a-2d-matrix-ii)
