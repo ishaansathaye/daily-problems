@@ -29,7 +29,7 @@ Binary Search - 2
 | 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Python](./findMin.py) | 🟡 | [Section](./LeetNotes.md#find-minimum-in-rotated-sorted-array)
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Python](./findPeakElement.py) | 🟡 | [Section](./LeetNotes.md#find-peak-element)
 
-Mock Interview #1
+Mock Interview #1 - TODO: Design Min Heap
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | Mock 1-1 | [Find Missing Number in a sorted array](https://youtu.be/LwmckBrlrRs) | [Python](./s30Mock/mock1/mock1-1.py) | - | [Section](./LeetNotes.md#find-missing-number-in-a-sorted-array)
@@ -70,7 +70,7 @@ DP - 3 - TODO: Minimum Falling Path Sum
 Mock Interview #2
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
-| Mock 2-2 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./s30Mock/mock2/mock2-1.py) | - | [Section](./LeetNotes.md#two-sum)
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](./s30Mock/mock2/mock2-1.py) | 🟢 | [Section](./LeetNotes.md#two-sum)
 | Mock 2-2 | [KnapSack Problem](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/) | [Python](./s30Mock/mock2/mock2-2.py) | - | [Section](./LeetNotes.md#knapsack-problem)
 
 Array - 1
@@ -100,3 +100,22 @@ Two Pointers - 2
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Python](./merge.py) | 🟢 | [Section](./LeetNotes.md#merge-sorted-array)
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [Python](./removeDuplicates2.py) | 🟡 | [Section](./LeetNotes.md#remove-duplicates-from-sorted-array-ii)
 | 240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Python](./search2DMatrix2.py) | 🟡 | [Section](./LeetNotes.md#search-a-2d-matrix-ii)
+
+Competition - Nutanix - TODO: Hackerland Radio Transmitters
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| HckRnk | [The Max Subarray and Subsequence](https://www.hackerrank.com/challenges/maxsubarray/problem) | [Python](./comps/nutanix/maxSubArray.py) | 🟡 | [Section](./LeetNotes.md#the-max-subarray-and-subsequence)
+| 53 | [The Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](./comps/nutanix/maxSubArray.py) | 🟡 | [Section](./LeetNotes.md#the-maximum-subarray)
+| HckRnk | [Hackerland Radio Transmitters](https://www.hackerrank.com/challenges/hackerland-radio-transmitters/problem) | [Python](./comps/nutanix/hackerlandRadioTransmitters.py) | 🟡 | [Section](./LeetNotes.md#hackerland-radio-transmitters)
+
+Mock Interview #3
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 532 | [K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [Python](./s30Mock/mock3/mock3-1.py) | 🟡 | [Section](./LeetNotes.md#k-diff-pairs-in-an-array)
+| 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./s30Mock/mock3/mock3-2.py) | 🟢 | [Section](./LeetNotes.md#pascals-triangle)
+
+Trees - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](./isValidBST.py) | 🟡 | [Section](./LeetNotes.md#validate-binary-search-tree)
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Python](./buildTree.py) | 🟡 | [Section](./LeetNotes.md#construct-binary-tree-from-preorder-and-inorder-traversal)
