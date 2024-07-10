@@ -118,4 +118,9 @@ Trees - 1
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](./isValidBST.py) | 🟡 | [Section](./LeetNotes.md#validate-binary-search-tree)
+
+Trees - 2
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Python](./buildTree.py) | 🟡 | [Section](./LeetNotes.md#construct-binary-tree-from-preorder-and-inorder-traversal)
+| 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Python](./sumNumbers.py) | 🟡 | [Section](./LeetNotes.md#sum-root-to-leaf-numbers)

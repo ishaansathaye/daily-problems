@@ -43,3 +43,34 @@ class Solution:
             # return False
         # right = self.inorder(root.right)
         # return left and right
+
+    def rangePreOrder(self, root) -> bool:
+        '''Using Range in Recursion and Preorder Traversal'''
+        self.flag = True
+        self.helper(root, None, None)
+        return self.flag
+
+    def helper(self, root, min, max):  # Time: O(n) Space: O(h)
+        # base
+        if root is None:
+            return
+        # logic
+        # moving these if statements in between calls -> in order traversal
+        # moving these after calls -> post order traversal
+        if min is not None and root.val <= min:
+            # not None for checking if infinity
+            self.flag = False
+            # return False
+        if max is not None and root.val >= max:
+            self.flag = False
+            # return False
+        # going to left use parent's min and max as parent's val
+        self.helper(root.left, min, root.val)
+        # right = above statement
+        # stack.pop()
+        # if left is False:
+        # return False
+        # going to right use parent's val as min and parent's max val
+        self.helper(root.right, root.val, max)
+        # right = above statement
+        # return left and right
