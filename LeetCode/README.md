@@ -123,6 +123,7 @@ Trees - 2
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Python](./buildTree.py) | 🟡 | [Section](./LeetNotes.md#construct-binary-tree-from-preorder-and-inorder-traversal)
+| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [Python](./buildTree2.py) | 🟡 | [Section](./LeetNotes.md#construct-binary-tree-from-inorder-and-postorder-traversal)
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Python](./sumNumbers.py) | 🟡 | [Section](./LeetNotes.md#sum-root-to-leaf-numbers)
 
 Trees - 3 - TODO: Symmetric Tree
