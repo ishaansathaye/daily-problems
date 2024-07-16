@@ -131,3 +131,30 @@ Trees - 3 - TODO: Symmetric Tree
 | --- | ----------- |---- | ----- | ------- |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Python](./pathSum2.py) | 🟡 | [Section](./LeetNotes.md#path-sum-ii)
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Python](./isSymmetric.py) | 🟢  | [Section](./LeetNotes.md#symmetric-tree)
+
+Linked List - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Python](./reverseList.py) | 🟢 | [Section](./LeetNotes.md#reverse-linked-list)
+| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Python](./removeNthFromEnd.py) | 🟡 | [Section](./LeetNotes.md#remove-nth-node-from-end-of-list)
+| 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Python](./detectCycle.py) | 🟡 | [Section](./LeetNotes.md#linked-list-cycle-ii)
+
+Linked List - 2 - TODO: Delete without Head Pointer
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [Python](./BSTIterator.py) | 🟡 | [Section](./LeetNotes.md#binary-search-tree-iterator)
+| 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | [Python](./reorderList.py) | 🟡 | [Section](./LeetNotes.md#reorder-list)
+| GG | [Delete without Head Pointer](https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1) | [Python](./deleteNode.py) | 🟢 | [Section](./LeetNotes.md#delete-without-head-pointer)
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](./getIntersectionNode.py) | 🟢 | [Section](./LeetNotes.md#intersection-of-two-linked-lists)
+
+Mock Interview #4 - TODO: Balanced Binary Tree
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Python](./s30Mock/mock4/mock4-1.py) | 🟢 | [Section](./LeetNotes.md#palindrome-linked-list)
+| 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Python](./s30Mock/mock4/mock4-2.py) | 🟢 | [Section](./LeetNotes.md#balanced-binary-tree)
+
+BFS - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](./levelOrder.py) | 🟡 | [Section](./LeetNotes.md#binary-tree-level-order-traversal)
+| 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](./canFinish.py) | 🟡 | [Section](./LeetNotes.md#course-schedule)
