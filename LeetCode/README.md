@@ -126,7 +126,7 @@ Trees - 2
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [Python](./buildTree2.py) | 🟡 | [Section](./LeetNotes.md#construct-binary-tree-from-inorder-and-postorder-traversal)
 | 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Python](./sumNumbers.py) | 🟡 | [Section](./LeetNotes.md#sum-root-to-leaf-numbers)
 
-Trees - 3 - TODO: Symmetric Tree
+Trees - 3
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Python](./pathSum2.py) | 🟡 | [Section](./LeetNotes.md#path-sum-ii)
@@ -158,3 +158,9 @@ BFS - 1
 | --- | ----------- |---- | ----- | ------- |
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Python](./levelOrder.py) | 🟡 | [Section](./LeetNotes.md#binary-tree-level-order-traversal)
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](./canFinish.py) | 🟡 | [Section](./LeetNotes.md#course-schedule)
+
+BFS - 2
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python](./rightSideView.py) | 🟡 | [Section](./LeetNotes.md#binary-tree-right-side-view)
+| 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Python](./isCousins.py) | 🟢 | [Section](./LeetNotes.md#cousins-in-binary-tree)
