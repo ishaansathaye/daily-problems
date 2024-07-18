@@ -164,3 +164,15 @@ BFS - 2
 | --- | ----------- |---- | ----- | ------- |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Python](./rightSideView.py) | 🟡 | [Section](./LeetNotes.md#binary-tree-right-side-view)
 | 993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Python](./isCousins.py) | 🟢 | [Section](./LeetNotes.md#cousins-in-binary-tree)
+
+BFS - 2.1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [Python](./orangesRotting.py) | 🟡 | [Section](./LeetNotes.md#rotting-oranges)
+| 690 | [Employee Importance](https://leetcode.com/problems/employee-importance/) | [Python](./getImportance.py) | 🟡 | [Section](./LeetNotes.md#employee-importance)
+
+DFS - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](./floodFill.py) | 🟢 | [Section](./LeetNotes.md#flood-fill)
+| 542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](./updateMatrix.py) | 🟡 | [Section](./LeetNotes.md#01-matrix)
