@@ -176,3 +176,9 @@ DFS - 1
 | --- | ----------- |---- | ----- | ------- |
 | 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | [Python](./floodFill.py) | 🟢 | [Section](./LeetNotes.md#flood-fill)
 | 542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](./updateMatrix.py) | 🟡 | [Section](./LeetNotes.md#01-matrix)
+
+DFS - 2
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./numIslands.py) | 🟡 | [Section](./LeetNotes.md#number-of-islands)
+| 394 | [Decode String](https://leetcode.com/problems/decode-string/) | [Python](./decodeString.py) | 🟡 | [Section](./LeetNotes.md#decode-string)
