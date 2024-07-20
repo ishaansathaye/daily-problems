@@ -147,7 +147,7 @@ Linked List - 2 - TODO: Delete without Head Pointer
 | GG | [Delete without Head Pointer](https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1) | [Python](./deleteNode.py) | 🟢 | [Section](./LeetNotes.md#delete-without-head-pointer)
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Python](./getIntersectionNode.py) | 🟢 | [Section](./LeetNotes.md#intersection-of-two-linked-lists)
 
-Mock Interview #4 - TODO: Balanced Binary Tree
+Mock Interview #4
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Python](./s30Mock/mock4/mock4-1.py) | 🟢 | [Section](./LeetNotes.md#palindrome-linked-list)
