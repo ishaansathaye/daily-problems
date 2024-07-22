@@ -182,3 +182,9 @@ DFS - 2
 | --- | ----------- |---- | ----- | ------- |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Python](./numIslands.py) | 🟡 | [Section](./LeetNotes.md#number-of-islands)
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | [Python](./decodeString.py) | 🟡 | [Section](./LeetNotes.md#decode-string)
+
+Mock Interview #5
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./s30Mock/mock5/mock5-1.py) | 🟡 | [Section](./LeetNotes.md#valid-sudoku)
+| 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Python](./s30Mock/mock5/mock5-2.py) | 🟡 | [Section](./LeetNotes.md#find-largest-value-in-each-tree-row)
