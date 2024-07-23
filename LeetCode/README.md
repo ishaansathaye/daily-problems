@@ -188,3 +188,9 @@ Mock Interview #5
 | --- | ----------- |---- | ----- | ------- |
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./s30Mock/mock5/mock5-1.py) | 🟡 | [Section](./LeetNotes.md#valid-sudoku)
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Python](./s30Mock/mock5/mock5-2.py) | 🟡 | [Section](./LeetNotes.md#find-largest-value-in-each-tree-row)
+
+Backtracking - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [Python](./combinationSum.py) | 🟡 | [Section](./LeetNotes.md#combination-sum)
+| 282 | [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | [Python](./addOperators.py) | 🔴 | [Section](./LeetNotes.md#expression-add-operators)
