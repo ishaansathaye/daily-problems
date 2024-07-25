@@ -189,8 +189,20 @@ Mock Interview #5
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./s30Mock/mock5/mock5-1.py) | 🟡 | [Section](./LeetNotes.md#valid-sudoku)
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Python](./s30Mock/mock5/mock5-2.py) | 🟡 | [Section](./LeetNotes.md#find-largest-value-in-each-tree-row)
 
-Backtracking - 1
+Backtracking - 1 - TODO: Expression Add Operators
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [Python](./combinationSum.py) | 🟡 | [Section](./LeetNotes.md#combination-sum)
 | 282 | [Expression Add Operators](https://leetcode.com/problems/expression-add-operators/) | [Python](./addOperators.py) | 🔴 | [Section](./LeetNotes.md#expression-add-operators)
+
+Backtracking - 2
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 78 | [Subsets](https://leetcode.com/problems/subsets/) | [Python](./subsets.py) | 🟡 | [Section](./LeetNotes.md#subsets)
+| 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | [Python](./partition.py) | 🟡 | [Section](./LeetNotes.md#palindrome-partitioning)
+
+Backtracking - 3
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Python](./solveNQueens.py) | 🔴 | [Section](./LeetNotes.md#n-queens)
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./exist.py) | 🟡 | [Section](./LeetNotes.md#word-search)
