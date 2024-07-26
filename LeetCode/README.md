@@ -206,3 +206,10 @@ Backtracking - 3
 | --- | ----------- |---- | ----- | ------- |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Python](./solveNQueens.py) | 🔴 | [Section](./LeetNotes.md#n-queens)
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./exist.py) | 🟡 | [Section](./LeetNotes.md#word-search)
+
+Trie - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Python](./Trie.py) | 🟡 | [Section](./LeetNotes.md#implement-trie-prefix-tree)
+| 720 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/) | [Python](./longestWord.py) | 🟡 | [Section](./LeetNotes.md#longest-word-in-dictionary)
+| 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | [Python](./replaceWords.py) | 🟡 | [Section](./LeetNotes.md#replace-words)
