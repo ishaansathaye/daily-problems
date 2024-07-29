@@ -207,9 +207,21 @@ Backtracking - 3
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Python](./solveNQueens.py) | 🔴 | [Section](./LeetNotes.md#n-queens)
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./exist.py) | 🟡 | [Section](./LeetNotes.md#word-search)
 
-Trie - 1
+Trie - 1 - TODO: Longest Word in Dictionary
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Python](./Trie.py) | 🟡 | [Section](./LeetNotes.md#implement-trie-prefix-tree)
 | 720 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/) | [Python](./longestWord.py) | 🟡 | [Section](./LeetNotes.md#longest-word-in-dictionary)
 | 648 | [Replace Words](https://leetcode.com/problems/replace-words/) | [Python](./replaceWords.py) | 🟡 | [Section](./LeetNotes.md#replace-words)
+
+Design - 3 - TODO: Fix Flatten Nested List Iterator
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 341 | [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/) | [Python](./NestedIterator.py) | 🟡 | [Section](./LeetNotes.md#flatten-nested-list-iterator)
+| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Python](./LRUCache.py) | 🟡 | [Section](./LeetNotes.md#lru-cache)
+
+Mock Interview #6
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 359 | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) | [Python](./s30Mock/mock6/mock6-1.py) | 🟢 | [Section](./LeetNotes.md#logger-rate-limiter)
+| 526 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | [Python](./s30Mock/mock6/mock6-2.py) | 🟡 | [Section](./LeetNotes.md#beautiful-arrangement)
