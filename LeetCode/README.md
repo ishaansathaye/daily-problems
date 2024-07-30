@@ -225,3 +225,9 @@ Mock Interview #6
 | --- | ----------- |---- | ----- | ------- |
 | 359 | [Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) | [Python](./s30Mock/mock6/mock6-1.py) | 🟢 | [Section](./LeetNotes.md#logger-rate-limiter)
 | 526 | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | [Python](./s30Mock/mock6/mock6-2.py) | 🟡 | [Section](./LeetNotes.md#beautiful-arrangement)
+
+Heaps - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](./findKthLargest.py) | 🟡 | [Section](./LeetNotes.md#kth-largest-element-in-an-array)
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](./mergeKLists.py) | 🔴 | [Section](./LeetNotes.md#merge-k-sorted-lists)
