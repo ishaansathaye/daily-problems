@@ -231,3 +231,15 @@ Heaps - 1
 | --- | ----------- |---- | ----- | ------- |
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](./findKthLargest.py) | 🟡 | [Section](./LeetNotes.md#kth-largest-element-in-an-array)
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](./mergeKLists.py) | 🔴 | [Section](./LeetNotes.md#merge-k-sorted-lists)
+
+Design - 4
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | [Python](./Twitter.py) | 🟡 | [Section](./LeetNotes.md#design-twitter)
+| - | [Google: Skip Iterator](https://leetcode.com/discuss/interview-question/341818/Google-or-Onsite-or-Skip-Iterator) | [Python](./SkipIterator.py) | 🟡 | [Section](./LeetNotes.md#skip-iterator)
+
+Binary Search - 3
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](./myPow.py) | 🟡 | [Section](./LeetNotes.md#powx-n)
+| 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Python](./findClosestElements.py) | 🟡 | [Section](./LeetNotes.md#find-k-closest-elements)
