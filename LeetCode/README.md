@@ -232,7 +232,7 @@ Heaps - 1
 | 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Python](./findKthLargest.py) | 🟡 | [Section](./LeetNotes.md#kth-largest-element-in-an-array)
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Python](./mergeKLists.py) | 🔴 | [Section](./LeetNotes.md#merge-k-sorted-lists)
 
-Design - 4
+Design - 4 - TODO: Fix Google: Skip Iterator
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | [Python](./Twitter.py) | 🟡 | [Section](./LeetNotes.md#design-twitter)
