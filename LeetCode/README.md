@@ -189,7 +189,7 @@ Mock Interview #5
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./s30Mock/mock5/mock5-1.py) | 🟡 | [Section](./LeetNotes.md#valid-sudoku)
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Python](./s30Mock/mock5/mock5-2.py) | 🟡 | [Section](./LeetNotes.md#find-largest-value-in-each-tree-row)
 
-Backtracking - 1 - TODO: Expression Add Operators
+Backtracking - 1 - TODO: Fix Expression Add Operators
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [Python](./combinationSum.py) | 🟡 | [Section](./LeetNotes.md#combination-sum)
@@ -236,10 +236,22 @@ Design - 4 - TODO: Fix Google: Skip Iterator
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | [Python](./Twitter.py) | 🟡 | [Section](./LeetNotes.md#design-twitter)
-| - | [Google: Skip Iterator](https://leetcode.com/discuss/interview-question/341818/Google-or-Onsite-or-Skip-Iterator) | [Python](./SkipIterator.py) | 🟡 | [Section](./LeetNotes.md#skip-iterator)
+| - | [Google: Skip Iterator](https://leetcode.com/discuss/interview-question/341818/Google-or-Onsite-or-Skip-Iterator) | [Python](./SkipIterator.py) | - | [Section](./LeetNotes.md#skip-iterator)
 
 Binary Search - 3
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](./myPow.py) | 🟡 | [Section](./LeetNotes.md#powx-n)
 | 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Python](./findClosestElements.py) | 🟡 | [Section](./LeetNotes.md#find-k-closest-elements)
+
+Binary Search - 3.1 - TODO: Both
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| - | [Amazon OA 2019 Optimal Utilization](https://leetcode.com/discuss/interview-question/373202) | [Python](./optimalUtilization.py) | - | [Section](./LeetNotes.md#optimal-utilization)
+| 275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | [Python](./hIndex.py) | 🟡 | [Section](./LeetNotes.md#h-index-ii)
+
+Binary Search - 4 - TODO: Median of Two Sorted Arrays
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](./intersect.py) | 🟢 | [Section](./LeetNotes.md#intersection-of-two-arrays-ii)
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./findMedianSortedArrays.py) | 🔴 | [Section](./LeetNotes.md#median-of-two-sorted-arrays)
