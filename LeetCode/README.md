@@ -5,7 +5,7 @@
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Python](twoSum.py) | 🟢 | [Section](./LeetNotes.md#two-sum)
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](addTwoNum.py) | 🟡 | [Section](./LeetNotes.md#add-two-numbers)
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./lengthOfLongestSubstring.py) | 🟡 | [Section](./LeetNotes.md#longest-string-without-repeating-characters)
-| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./medianSortedArrays.py) | 🔴 | [Section](./LeetNotes.md#median-of-two-sorted-arrays)
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./findMedianSortedArrays.py) | 🔴 | [Section](./LeetNotes.md#median-of-two-sorted-arrays)
 
 PreCourse - 1
 | Number | Problem | Solution | Difficulty | Takeaway
@@ -189,7 +189,7 @@ Mock Interview #5
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Python](./s30Mock/mock5/mock5-1.py) | 🟡 | [Section](./LeetNotes.md#valid-sudoku)
 | 515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Python](./s30Mock/mock5/mock5-2.py) | 🟡 | [Section](./LeetNotes.md#find-largest-value-in-each-tree-row)
 
-Backtracking - 1 - TODO: Fix Expression Add Operators
+Backtracking - 1
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [Python](./combinationSum.py) | 🟡 | [Section](./LeetNotes.md#combination-sum)
@@ -244,7 +244,7 @@ Binary Search - 3
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Python](./myPow.py) | 🟡 | [Section](./LeetNotes.md#powx-n)
 | 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | [Python](./findClosestElements.py) | 🟡 | [Section](./LeetNotes.md#find-k-closest-elements)
 
-Binary Search - 3.1 - TODO: Both
+Binary Search - 3.1 - TODO: Amazon OA 2019 Optimal Utilization
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | - | [Amazon OA 2019 Optimal Utilization](https://leetcode.com/discuss/interview-question/373202) | [Python](./optimalUtilization.py) | - | [Section](./LeetNotes.md#optimal-utilization)
