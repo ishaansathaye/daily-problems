@@ -250,7 +250,7 @@ Binary Search - 3.1 - TODO: Amazon OA 2019 Optimal Utilization
 | - | [Amazon OA 2019 Optimal Utilization](https://leetcode.com/discuss/interview-question/373202) | [Python](./optimalUtilization.py) | - | [Section](./LeetNotes.md#optimal-utilization)
 | 275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | [Python](./hIndex.py) | 🟡 | [Section](./LeetNotes.md#h-index-ii)
 
-Binary Search - 4 - TODO: Median of Two Sorted Arrays
+Binary Search - 4
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](./intersect.py) | 🟢 | [Section](./LeetNotes.md#intersection-of-two-arrays-ii)
