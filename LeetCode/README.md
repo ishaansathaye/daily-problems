@@ -255,3 +255,9 @@ Binary Search - 4
 | --- | ----------- |---- | ----- | ------- |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Python](./intersect.py) | 🟢 | [Section](./LeetNotes.md#intersection-of-two-arrays-ii)
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./findMedianSortedArrays.py) | 🔴 | [Section](./LeetNotes.md#median-of-two-sorted-arrays)
+
+Mock Interview #7 - TODO: Both problems
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Python](./s30Mock/mock7/mock7-1.py) | 🟡 | [Section](./LeetNotes.md#meeting-rooms-ii)
+| 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Python](./s30Mock/mock7/mock7-2.py) | 🟡 | [Section](./LeetNotes.md#kth-smallest-element-in-a-sorted-matrix)
