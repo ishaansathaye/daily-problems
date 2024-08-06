@@ -261,3 +261,9 @@ Mock Interview #7 - TODO: Both problems
 | --- | ----------- |---- | ----- | ------- |
 | 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) | [Python](./s30Mock/mock7/mock7-1.py) | 🟡 | [Section](./LeetNotes.md#meeting-rooms-ii)
 | 378 | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Python](./s30Mock/mock7/mock7-2.py) | 🟡 | [Section](./LeetNotes.md#kth-smallest-element-in-a-sorted-matrix)
+
+Strings - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | [Python](./customSortString.py) | 🟡 | [Section](./LeetNotes.md#custom-sort-string)
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./lengthOfLongestSubstring.py) | 🟡 | [Section](./LeetNotes.md#longest-substring-without-repeating-characters)
