@@ -267,3 +267,9 @@ Strings - 1
 | --- | ----------- |---- | ----- | ------- |
 | 791 | [Custom Sort String](https://leetcode.com/problems/custom-sort-string/) | [Python](./customSortString.py) | 🟡 | [Section](./LeetNotes.md#custom-sort-string)
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./lengthOfLongestSubstring.py) | 🟡 | [Section](./LeetNotes.md#longest-substring-without-repeating-characters)
+
+Strings - 2
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](./strStr.py) | 🟢 | [Section](./LeetNotes.md#implement-strstr)
+| 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Python](./findAnagrams.py) | 🟡 | [Section](./LeetNotes.md#find-all-anagrams-in-a-string)
