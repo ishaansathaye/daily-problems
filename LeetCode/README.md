@@ -273,3 +273,10 @@ Strings - 2
 | --- | ----------- |---- | ----- | ------- |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Python](./strStr.py) | 🟢 | [Section](./LeetNotes.md#implement-strstr)
 | 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Python](./findAnagrams.py) | 🟡 | [Section](./LeetNotes.md#find-all-anagrams-in-a-string)
+
+Strings - 3
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [Python](./numberToWords.py) | 🔴 | [Section](./LeetNotes.md#integer-to-english-words)
+| 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [Python](./calculate.py) | 🟡 | [Section](./LeetNotes.md#basic-calculator-ii)
+| 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Python](./calculate2.py) | 🔴 | [Section](./LeetNotes.md#basic-calculator)
