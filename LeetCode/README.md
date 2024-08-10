@@ -280,3 +280,10 @@ Strings - 3
 | 273 | [Integer to English Words](https://leetcode.com/problems/integer-to-english-words/) | [Python](./numberToWords.py) | 🔴 | [Section](./LeetNotes.md#integer-to-english-words)
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [Python](./calculate.py) | 🟡 | [Section](./LeetNotes.md#basic-calculator-ii)
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Python](./calculate2.py) | 🔴 | [Section](./LeetNotes.md#basic-calculator)
+
+Trees - 4
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](./lowestCommonAncestor.py) | 🟡 | [Section](./LeetNotes.md#lowest-common-ancestor-of-a-binary-search-tree)
+| 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](./lowestCommonAncestor2.py) | 🟡 | [Section](./LeetNotes.md#lowest-common-ancestor-of-a-binary-tree)
+| 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](./kthSmallest.py) | 🟡 | [Section](./LeetNotes.md#kth-smallest-element-in-a-bst)
