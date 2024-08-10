@@ -287,3 +287,10 @@ Trees - 4
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Python](./lowestCommonAncestor.py) | 🟡 | [Section](./LeetNotes.md#lowest-common-ancestor-of-a-binary-search-tree)
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Python](./lowestCommonAncestor2.py) | 🟡 | [Section](./LeetNotes.md#lowest-common-ancestor-of-a-binary-tree)
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](./kthSmallest.py) | 🟡 | [Section](./LeetNotes.md#kth-smallest-element-in-a-bst)
+
+Trees - 5
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Python](./connect.py) | 🟡 | [Section](./LeetNotes.md#populating-next-right-pointers-in-each-node)
+| 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | [Python](./recoverTree.py) | 🟡 | [Section](./LeetNotes.md#recover-binary-search-tree)
+| 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](./inorderTraversal.py) | 🟢 | [Section](./LeetNotes.md#binary-tree-inorder-traversal)
