@@ -11,7 +11,8 @@ class TreeNode:
 
 
 class Solution:
-    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+    def _inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        '''With Stack'''
         if root is None:
             return None
         st = []
@@ -25,4 +26,31 @@ class Solution:
             res.append(root.val)
             root = root.right
 
+        return res
+
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        '''Morris Traversal: Without Stack'''
+        '''Asked for covnerting BST into Linked List'''
+        if root is None:
+            return None
+        res = []
+        while root is not None:
+            if root.left is None:
+                res.append(root.val)
+                root = root.right
+            else:
+                pred = root.left
+                while pred.right is not None and pred.right is not root:
+                    pred = pred.right
+                if pred.right is None:
+                    # Downward Motion
+                    # set right of pred to the next elem (root)
+                    pred.right = root
+                    root = root.left
+                else:
+                    # Upward Motion
+                    pred.right = None
+                    # Putting root in
+                    res.append(root.val)
+                    root = root.right
         return res
