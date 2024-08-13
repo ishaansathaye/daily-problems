@@ -17,7 +17,7 @@ class Solution:
                     currPartMax = max(currPartMax, arr[i-j+1])
                     # current partition + earlier partition sum in dp
                     currSum = currPartMax*j
-                    # check if earlier parition is in range
+                    # check if earlier partition is in range
                     if i-j >= 0:
                         currSum += dp[i-j]
                     # take max of all k partitions on i
