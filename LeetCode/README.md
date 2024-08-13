@@ -294,3 +294,15 @@ Trees - 5
 | 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Python](./connect.py) | 🟡 | [Section](./LeetNotes.md#populating-next-right-pointers-in-each-node)
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | [Python](./recoverTree.py) | 🟡 | [Section](./LeetNotes.md#recover-binary-search-tree)
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](./inorderTraversal.py) | 🟢 | [Section](./LeetNotes.md#binary-tree-inorder-traversal)
+
+Mock Interview #8 - TODO: Both problems
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [Python](./s30Mock/mock8/mock8-1.py) | 🟡 | [Section](./LeetNotes.md#flatten-binary-tree-to-linked-list)
+| 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Python](./s30Mock/mock8/mock8-2.py) | 🔴 | [Section](./LeetNotes.md#minimum-window-substring)
+
+DP - 4
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [Python](./maximalSquare.py) | 🟡 | [Section](./LeetNotes.md#maximal-square)
+| 1043 | [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/) | [Python](./maxSumAfterPartitioning.py) | 🟡 | [Section](./LeetNotes.md#partition-array-for-maximum-sum)
