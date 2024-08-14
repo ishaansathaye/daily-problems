@@ -306,3 +306,9 @@ DP - 4
 | --- | ----------- |---- | ----- | ------- |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [Python](./maximalSquare.py) | 🟡 | [Section](./LeetNotes.md#maximal-square)
 | 1043 | [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/) | [Python](./maxSumAfterPartitioning.py) | 🟡 | [Section](./LeetNotes.md#partition-array-for-maximum-sum)
+
+DP - 5
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | [Python](./wordBreak.py) | 🟡 | [Section](./LeetNotes.md#word-break)
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](./uniquePaths.py) | 🟡 | [Section](./LeetNotes.md#unique-paths)
