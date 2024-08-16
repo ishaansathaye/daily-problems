@@ -312,3 +312,14 @@ DP - 5
 | --- | ----------- |---- | ----- | ------- |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | [Python](./wordBreak.py) | 🟡 | [Section](./LeetNotes.md#word-break)
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Python](./uniquePaths.py) | 🟡 | [Section](./LeetNotes.md#unique-paths)
+
+Design - 5
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Python](./copyRandomList.py) | 🟡 | [Section](./LeetNotes.md#copy-list-with-random-pointer)
+
+Graphs - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Python](./findJudge.py) | 🟢 | [Section](./LeetNotes.md#find-the-town-judge)
+| 490 | [The Maze](https://leetcode.com/problems/the-maze/) | [Python](./hasPath.py) | 🟡 | [Section](./LeetNotes.md#the-maze)
