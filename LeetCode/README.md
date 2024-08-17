@@ -323,3 +323,10 @@ Graphs - 1
 | --- | ----------- |---- | ----- | ------- |
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Python](./findJudge.py) | 🟢 | [Section](./LeetNotes.md#find-the-town-judge)
 | 490 | [The Maze](https://leetcode.com/problems/the-maze/) | [Python](./hasPath.py) | 🟡 | [Section](./LeetNotes.md#the-maze)
+
+Competition - Amazon
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| - | [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem) | [Python](./comps/amazon/sparseArrays.py) | 🟡 | [Section](./LeetNotes.md#sparse-arrays)
+| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Python](./comps/amazon/largestRectangleArea.py) | 🔴 | [Section](./LeetNotes.md#largest-rectangle-in-histogram)
+| 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | [Python](./comps/amazon/canCompleteCircuit.py) | 🟡 | [Section](./LeetNotes.md#gas-station)
