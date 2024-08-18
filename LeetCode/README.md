@@ -330,3 +330,9 @@ Competition - Amazon
 | - | [Sparse Arrays](https://www.hackerrank.com/challenges/sparse-arrays/problem) | [Python](./comps/amazon/sparseArrays.py) | 🟡 | [Section](./LeetNotes.md#sparse-arrays)
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Python](./comps/amazon/largestRectangleArea.py) | 🔴 | [Section](./LeetNotes.md#largest-rectangle-in-histogram)
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | [Python](./comps/amazon/canCompleteCircuit.py) | 🟡 | [Section](./LeetNotes.md#gas-station)
+
+Mock Interview #9 - TODO: Word Ladder
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Python](./s30Mock/mock9/mock9-1.py) | 🟡 | [Section](./LeetNotes.md#minimum-cost-for-tickets)
+| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](./s30Mock/mock9/mock9-2.py) | 🔴 | [Section](./LeetNotes.md#word-ladder)
