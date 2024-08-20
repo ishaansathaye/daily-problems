@@ -248,7 +248,7 @@ Binary Search - 3.1 - TODO: Amazon OA 2019 Optimal Utilization
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | - | [Amazon OA 2019 Optimal Utilization](https://leetcode.com/discuss/interview-question/373202) | [Python](./optimalUtilization.py) | - | [Section](./LeetNotes.md#optimal-utilization)
-| 275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | [Python](./hIndex.py) | 🟡 | [Section](./LeetNotes.md#h-index-ii)
+| 275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | [Python](./hIndex2.py) | 🟡 | [Section](./LeetNotes.md#h-index-ii)
 
 Binary Search - 4
 | Number | Problem | Solution | Difficulty | Takeaway
@@ -336,3 +336,11 @@ Mock Interview #9 - TODO: Word Ladder
 | --- | ----------- |---- | ----- | ------- |
 | 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Python](./s30Mock/mock9/mock9-1.py) | 🟡 | [Section](./LeetNotes.md#minimum-cost-for-tickets)
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](./s30Mock/mock9/mock9-2.py) | 🔴 | [Section](./LeetNotes.md#word-ladder)
+
+Arrays - 3 - TODO: H-Index
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](./trap.py) | 🔴 | [Section](./LeetNotes.md#trapping-rain-water)
+| 274 | [H-Index](https://leetcode.com/problems/h-index/) | [Python](./hIndex1.py) | 🟡 | [Section](./LeetNotes.md#h-index)
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Python](./rotate.py) | 🟡 | [Section](./LeetNotes.md#rotate-array)
+| 561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Python](./arrayPairSum.py) | 🟢 | [Section](./LeetNotes.md#array-partition-i)
