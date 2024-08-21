@@ -337,10 +337,17 @@ Mock Interview #9 - TODO: Word Ladder
 | 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | [Python](./s30Mock/mock9/mock9-1.py) | 🟡 | [Section](./LeetNotes.md#minimum-cost-for-tickets)
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [Python](./s30Mock/mock9/mock9-2.py) | 🔴 | [Section](./LeetNotes.md#word-ladder)
 
-Arrays - 3 - TODO: H-Index
+Arrays - 3
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](./trap.py) | 🔴 | [Section](./LeetNotes.md#trapping-rain-water)
 | 274 | [H-Index](https://leetcode.com/problems/h-index/) | [Python](./hIndex1.py) | 🟡 | [Section](./LeetNotes.md#h-index)
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Python](./rotate.py) | 🟡 | [Section](./LeetNotes.md#rotate-array)
+
+
+Arrays - 4
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
 | 561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Python](./arrayPairSum.py) | 🟢 | [Section](./LeetNotes.md#array-partition-i)
+| 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](./nextPermutation.py) | 🟡 | [Section](./LeetNotes.md#next-permutation)
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](./comps/nutanix/maxSubArray.py) | 🟡 | [Section](./LeetNotes.md#the-maximum-subarray)
