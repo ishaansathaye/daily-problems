@@ -344,10 +344,15 @@ Arrays - 3
 | 274 | [H-Index](https://leetcode.com/problems/h-index/) | [Python](./hIndex1.py) | 🟡 | [Section](./LeetNotes.md#h-index)
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Python](./rotate.py) | 🟡 | [Section](./LeetNotes.md#rotate-array)
 
-
 Arrays - 4
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Python](./arrayPairSum.py) | 🟢 | [Section](./LeetNotes.md#array-partition-i)
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](./nextPermutation.py) | 🟡 | [Section](./LeetNotes.md#next-permutation)
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Python](./comps/nutanix/maxSubArray.py) | 🟡 | [Section](./LeetNotes.md#the-maximum-subarray)
+
+Design - 6
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 379 | [Design Phone Directory](https://leetcode.com/problems/design-phone-directory/) | [Python](./PhoneDirectory.py) | 🟡 | [Section](./LeetNotes.md#design-phone-directory)
+| 642 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [Python](./AutocompleteSystem.py) | 🔴 | [Section](./LeetNotes.md#design-search-autocomplete-system)
