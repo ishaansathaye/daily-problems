@@ -356,3 +356,9 @@ Design - 6
 | --- | ----------- |---- | ----- | ------- |
 | 379 | [Design Phone Directory](https://leetcode.com/problems/design-phone-directory/) | [Python](./PhoneDirectory.py) | 🟡 | [Section](./LeetNotes.md#design-phone-directory)
 | 642 | [Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/) | [Python](./AutocompleteSystem.py) | 🔴 | [Section](./LeetNotes.md#design-search-autocomplete-system)
+
+Design - 7
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 353 | [Design Snake Game](https://leetcode.com/problems/design-snake-game/) | [Python](./SnakeGame.py) | 🟡 | [Section](./LeetNotes.md#design-snake-game)
+| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | [Python](./LFUCache.py) | 🔴 | [Section](./LeetNotes.md#lfu-cache)
