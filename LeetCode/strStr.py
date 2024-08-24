@@ -16,7 +16,7 @@ class Solution:
             i += 1
         return -1
 
-    def strStr(self, haystack: str, needle: str) -> int:
+    def strStr1(self, haystack: str, needle: str) -> int:
         '''Robin-Karp Algo: O(M+N)'''
         m = len(haystack)
         n = len(needle)
@@ -45,3 +45,49 @@ class Solution:
                 return i-n+1  # the first pointer
 
         return -1
+
+    def strStr(self, haystack: str, needle: str) -> int:
+        m = len(haystack)
+        n = len(needle)
+        lps = self.lps(needle)
+        i = 0  # haystack pointer
+        j = 0  # needle pointer
+        while i < m:
+            if haystack[i] == needle[j]:
+                # continue - go to next
+                i += 1
+                j += 1
+                # reached end of needle
+                if j == n:
+                    # return the start index of where
+                    # i stopped - length of needle
+                    return i - n
+            elif haystack[i] != needle[j] and j > 0:
+                # mismatch
+                # make use of longest common prefix and suffix at previous char
+                j = lps[j - 1]
+            elif haystack[i] != needle[j] and j == 0:
+                # very first characters not matching
+                i += 1
+        return -1
+
+    def lps(self, needle):
+        lps = [0 for _ in range(len(needle))]
+        i = 1
+        j = 0  # keeping track of prefix
+        while i < len(lps):
+            # case 1
+            # if incoming prefix = suffix
+            if needle[j] == needle[i]:
+                # increase length of prefix window
+                j += 1
+                lps[i] = j  # prefix length
+                i += 1
+            elif needle[j] != needle[i] and j > 0:
+                # squeeze the window
+                # no need to check in between things
+                j = lps[j-1]
+            elif needle[j] != needle[i] and j == 0:
+                lps[i] = j  # 0 lps[i] = 0
+                i += 1
+        return lps
