@@ -362,3 +362,9 @@ Design - 7
 | --- | ----------- |---- | ----- | ------- |
 | 353 | [Design Snake Game](https://leetcode.com/problems/design-snake-game/) | [Python](./SnakeGame.py) | 🟡 | [Section](./LeetNotes.md#design-snake-game)
 | 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | [Python](./LFUCache.py) | 🔴 | [Section](./LeetNotes.md#lfu-cache)
+
+Mock Interview #10
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Python](./s30Mock/mock10/mock10-1.py) | 🟡 | [Section](./LeetNotes.md#best-time-to-buy-and-sell-stock-ii)
+| 284 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) | [Python](./s30Mock/mock10/mock10-2.py) | 🟡 | [Section](./LeetNotes.md#peeking-iterator)
