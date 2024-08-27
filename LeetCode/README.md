@@ -368,3 +368,15 @@ Mock Interview #10
 | --- | ----------- |---- | ----- | ------- |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Python](./s30Mock/mock10/mock10-1.py) | 🟡 | [Section](./LeetNotes.md#best-time-to-buy-and-sell-stock-ii)
 | 284 | [Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) | [Python](./s30Mock/mock10/mock10-2.py) | 🟡 | [Section](./LeetNotes.md#peeking-iterator)
+
+Stack - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](./dailyTemperatures.py) | 🟡 | [Section](./LeetNotes.md#daily-temperatures)
+| 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | [Python](./nextGreaterElements.py) | 🟡 | [Section](./LeetNotes.md#next-greater-element-ii)
+
+Stack - 2
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](./isValid.py) | 🟢 | [Section](./LeetNotes.md#valid-parentheses)
+| 636 | [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/) | [Python](./exclusiveTime.py) | 🟡 | [Section](./LeetNotes.md#exclusive-time-of-functions)
