@@ -380,3 +380,10 @@ Stack - 2
 | --- | ----------- |---- | ----- | ------- |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Python](./isValid.py) | 🟢 | [Section](./LeetNotes.md#valid-parentheses)
 | 636 | [Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/) | [Python](./exclusiveTime.py) | 🟡 | [Section](./LeetNotes.md#exclusive-time-of-functions)
+
+Greedy - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 135 | [Candy](https://leetcode.com/problems/candy/) | [Python](./candy.py) | 🔴 | [Section](./LeetNotes.md#candy)
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Python](./canJump.py) | 🟡 | [Section](./LeetNotes.md#jump-game)
+| 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Python](./jump.py) | 🟡 | [Section](./LeetNotes.md#jump-game-ii)
