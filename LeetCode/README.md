@@ -387,3 +387,10 @@ Greedy - 1
 | 135 | [Candy](https://leetcode.com/problems/candy/) | [Python](./candy.py) | 🔴 | [Section](./LeetNotes.md#candy)
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Python](./canJump.py) | 🟡 | [Section](./LeetNotes.md#jump-game)
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [Python](./jump.py) | 🟡 | [Section](./LeetNotes.md#jump-game-ii)
+
+Greedy - 2
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Python](./leastInterval.py) | 🟡 | [Section](./LeetNotes.md#task-scheduler)
+| 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Python](./reconstructQueue.py) | 🟡 | [Section](./LeetNotes.md#queue-reconstruction-by-height)
+| 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | [Python](./partitionLabels.py) | 🟡 | [Section](./LeetNotes.md#partition-labels)
