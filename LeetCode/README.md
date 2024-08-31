@@ -394,3 +394,9 @@ Greedy - 2
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Python](./leastInterval.py) | 🟡 | [Section](./LeetNotes.md#task-scheduler)
 | 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Python](./reconstructQueue.py) | 🟡 | [Section](./LeetNotes.md#queue-reconstruction-by-height)
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | [Python](./partitionLabels.py) | 🟡 | [Section](./LeetNotes.md#partition-labels)
+
+Competition - Facebook
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Python](./comps/facebook/longestCommonSubsequence.py) | 🟡 | [Section](./LeetNotes.md#longest-common-subsequence)
+| - | [Roads and Libraries](https://www.hackerrank.com/challenges/torque-and-development/problem) | [Python](./comps/facebook/roadsAndLibraries.py) | 🟡 | [Section](./LeetNotes.md#roads-and-libraries)
