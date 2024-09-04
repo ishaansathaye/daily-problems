@@ -412,3 +412,9 @@ BFS - 3
 | --- | ----------- |---- | ----- | ------- |
 | 301 | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) | [Python](./removeInvalidParentheses.py) | 🔴 | [Section](./LeetNotes.md#remove-invalid-parentheses)
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | [Python](./cloneGraph.py) | 🟡 | [Section](./LeetNotes.md#clone-graph)
+
+BFS - 4
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 529 | [Minesweeper](https://leetcode.com/problems/minesweeper/) | [Python](./updateBoard.py) | 🟡 | [Section](./LeetNotes.md#minesweeper)
+| 909 | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) | [Python](./snakesAndLadders.py) | 🟡 | [Section](./LeetNotes.md#snakes-and-ladders)
