@@ -418,3 +418,9 @@ BFS - 4
 | --- | ----------- |---- | ----- | ------- |
 | 529 | [Minesweeper](https://leetcode.com/problems/minesweeper/) | [Python](./updateBoard.py) | 🟡 | [Section](./LeetNotes.md#minesweeper)
 | 909 | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) | [Python](./snakesAndLadders.py) | 🟡 | [Section](./LeetNotes.md#snakes-and-ladders)
+
+DP - 7
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Python](./minDistance.py) | 🟡 | [Section](./LeetNotes.md#edit-distance)
+| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Python](./isMatch.py) | 🔴 | [Section](./LeetNotes.md#regular-expression-matching)
