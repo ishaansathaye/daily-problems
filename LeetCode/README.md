@@ -424,3 +424,15 @@ DP - 7
 | --- | ----------- |---- | ----- | ------- |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Python](./minDistance.py) | 🟡 | [Section](./LeetNotes.md#edit-distance)
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Python](./isMatch.py) | 🔴 | [Section](./LeetNotes.md#regular-expression-matching)
+
+DP - 8
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [Python](./numberOfArithmeticSlices.py) | 🟡 | [Section](./LeetNotes.md#arithmetic-slices)
+| 120 | [Triangle](https://leetcode.com/problems/triangle/) | [Python](./minimumTotal.py) | 🟡 | [Section](./LeetNotes.md#triangle)
+
+DP and Binary Search Utilized - 9
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Python](./lengthOfLIS.py) | 🟡 | [Section](./LeetNotes.md#longest-increasing-subsequence)
+| 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | [Python](./maxEnvelopes.py) | 🔴 | [Section](./LeetNotes.md#russian-doll-envelopes)
