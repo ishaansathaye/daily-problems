@@ -436,3 +436,14 @@ DP and Binary Search Utilized - 9
 | --- | ----------- |---- | ----- | ------- |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Python](./lengthOfLIS.py) | 🟡 | [Section](./LeetNotes.md#longest-increasing-subsequence)
 | 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | [Python](./maxEnvelopes.py) | 🔴 | [Section](./LeetNotes.md#russian-doll-envelopes)
+
+Mock Interview #12 - TODO: Shortest Path in a Grid with Obstacles Elimination
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 1293 | [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | [Python](./s30Mock/mock12/mock12-1.py) | 🔴 | [Section](./LeetNotes.md#shortest-path-in-a-grid-with-obstacles-elimination)
+
+DP - 10
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [Python](./maxCoins.py) | 🔴 | [Section](./LeetNotes.md#burst-balloons)
+| 887 | [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) | [Python](./superEggDrop.py) | 🔴 | [Section](./LeetNotes.md#super-egg-drop)
