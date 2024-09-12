@@ -447,3 +447,9 @@ DP - 10
 | --- | ----------- |---- | ----- | ------- |
 | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [Python](./maxCoins.py) | 🔴 | [Section](./LeetNotes.md#burst-balloons)
 | 887 | [Super Egg Drop](https://leetcode.com/problems/super-egg-drop/) | [Python](./superEggDrop.py) | 🔴 | [Section](./LeetNotes.md#super-egg-drop)
+
+Graphs - 2
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 1192 | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](./criticalConnections.py) | 🔴 | [Section](./LeetNotes.md#critical-connections-in-a-network)
+| 924 | [Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/) | [Python](./minMalwareSpread.py) | 🔴 | [Section](./LeetNotes.md#minimize-malware-spread)
