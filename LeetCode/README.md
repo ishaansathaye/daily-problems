@@ -453,3 +453,9 @@ Graphs - 2
 | --- | ----------- |---- | ----- | ------- |
 | 1192 | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](./criticalConnections.py) | 🔴 | [Section](./LeetNotes.md#critical-connections-in-a-network)
 | 924 | [Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/) | [Python](./minMalwareSpread.py) | 🔴 | [Section](./LeetNotes.md#minimize-malware-spread)
+
+Backtracking - 4
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 1087 | [Brace Expansion](https://leetcode.com/problems/brace-expansion/) | [Python](./braceExpansion.py) | 🟡 | [Section](./LeetNotes.md#brace-expansion)
+| - | [Optimal Placement of Buildings in a Grid](https://github.com/super30admin/Backtracking-4) | [Python](./optimalPlacement.py) | - | [Section](./LeetNotes.md#optimal-placement-of-buildings-in-a-grid)
