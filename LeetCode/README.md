@@ -459,3 +459,14 @@ Backtracking - 4
 | --- | ----------- |---- | ----- | ------- |
 | 1087 | [Brace Expansion](https://leetcode.com/problems/brace-expansion/) | [Python](./braceExpansion.py) | 🟡 | [Section](./LeetNotes.md#brace-expansion)
 | - | [Optimal Placement of Buildings in a Grid](https://github.com/super30admin/Backtracking-4) | [Python](./optimalPlacement.py) | - | [Section](./LeetNotes.md#optimal-placement-of-buildings-in-a-grid)
+
+Greedy - 4 - TODO: Shortest Way to Form String
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 1055 | [Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/) | [Python](./shortestWay.py) | 🟡 | [Section](./LeetNotes.md#shortest-way-to-form-string)
+| 1007 | [Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | [Python](./minDominoRotations.py) | 🟡 | [Section](./LeetNotes.md#minimum-domino-rotations-for-equal-row)
+
+Hashing - 3
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | [Python](./repeatedDNASequences.py) | 🟡 | [Section](./LeetNotes.md#repeated-dna-sequences)
