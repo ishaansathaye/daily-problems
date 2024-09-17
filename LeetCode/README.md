@@ -442,7 +442,7 @@ Mock Interview #12 - TODO: Shortest Path in a Grid with Obstacles Elimination
 | --- | ----------- |---- | ----- | ------- |
 | 1293 | [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) | [Python](./s30Mock/mock12/mock12-1.py) | 🔴 | [Section](./LeetNotes.md#shortest-path-in-a-grid-with-obstacles-elimination)
 
-DP - 10
+DP - 10 - TODO: Watch Burst Balloons Solution
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | [Python](./maxCoins.py) | 🔴 | [Section](./LeetNotes.md#burst-balloons)
@@ -470,3 +470,19 @@ Hashing - 3
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | [Python](./repeatedDNASequences.py) | 🟡 | [Section](./LeetNotes.md#repeated-dna-sequences)
+
+Mock Interview #13
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 366 | [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/) | [Python](./s30Mock/mock13/mock13-1.py) | 🟡 | [Section](./LeetNotes.md#find-leaves-of-binary-tree)
+
+Greedy - 5
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Python](./wildcardMatching.py) | 🔴 | [Section](./wildcard-matching)
+| 1057 | [Campus Bikes](https://leetcode.com/problems/campus-bikes/) | [Python](./campusBikes.py) | 🟡 | [Section](./campus-bikes)
+
+Arrays - 5
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 2303 | [Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/) | 🟢 | [Section](./calculateAmountPaidInTaxes.py)
