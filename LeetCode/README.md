@@ -470,13 +470,14 @@ Hashing - 3
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | [Python](./repeatedDNASequences.py) | 🟡 | [Section](./LeetNotes.md#repeated-dna-sequences)
+| - | [Favorite Genres: Amazon OA 2019](https://leetcode.com/discuss/interview-question/373006) | [Python](./favoriteGenres.py) | - | [Section](./favorite-genres)
 
 Mock Interview #13
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 366 | [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/) | [Python](./s30Mock/mock13/mock13-1.py) | 🟡 | [Section](./LeetNotes.md#find-leaves-of-binary-tree)
 
-Greedy - 5
+Greedy - 5 - TODO: Wildcard Matching
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Python](./wildcardMatching.py) | 🔴 | [Section](./wildcard-matching)
@@ -486,3 +487,4 @@ Arrays - 5
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 2303 | [Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/) | 🟢 | [Section](./calculateAmountPaidInTaxes.py)
+| 1041 | [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) | 🟡 | [Section](./robotBounded.py)
