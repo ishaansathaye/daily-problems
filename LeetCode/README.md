@@ -477,7 +477,7 @@ Mock Interview #13
 | --- | ----------- |---- | ----- | ------- |
 | 366 | [Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/) | [Python](./s30Mock/mock13/mock13-1.py) | 🟡 | [Section](./LeetNotes.md#find-leaves-of-binary-tree)
 
-Greedy - 5 - TODO: Wildcard Matching
+Greedy - 5
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Python](./wildcardMatching.py) | 🔴 | [Section](./wildcard-matching)
