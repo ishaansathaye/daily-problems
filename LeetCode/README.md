@@ -480,11 +480,17 @@ Mock Interview #13
 Greedy - 5
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
-| 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Python](./wildcardMatching.py) | 🔴 | [Section](./wildcard-matching)
-| 1057 | [Campus Bikes](https://leetcode.com/problems/campus-bikes/) | [Python](./campusBikes.py) | 🟡 | [Section](./campus-bikes)
+| 44 | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Python](./wildcardMatching.py) | 🔴 | [Section](./LeetNotes.md#wildcard-matching)
+| 1057 | [Campus Bikes](https://leetcode.com/problems/campus-bikes/) | [Python](./campusBikes.py) | 🟡 | [Section](./LeetNotes.md#campus-bikes)
 
 Arrays - 5
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
-| 2303 | [Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/) | 🟢 | [Section](./calculateAmountPaidInTaxes.py)
-| 1041 | [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) | 🟡 | [Section](./robotBounded.py)
+| 2303 | [Calculate Amount Paid in Taxes](https://leetcode.com/problems/calculate-amount-paid-in-taxes/) | [Python](./calculateTax.py) | 🟢 | [Section](./LeetNotes.md#calculate-amount-paid-in-taxes)
+| 1041 | [Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/) | [Python](./robotBounded.py) | 🟡 | [Section](./LeetNotes.md#robot-bounded-in-circle)
+
+DP - 6
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [Python](./uglyNumber2.py) | 🟡 | [Section](./LeetNotes.md#ugly-number-ii)
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](./longestPalindromeString.py) | 🟡 | [Section](./LeetNotes.md#longest-palindromic-substring)

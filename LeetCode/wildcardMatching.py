@@ -42,6 +42,7 @@ class Solution:
                 # if star and at top just look at prev val
                 dp[j] = dp[j-1]
 
+        # dp[0] = False
         for i in range(1, sl+1):
             # diagUp = False
             # if i == 1:
