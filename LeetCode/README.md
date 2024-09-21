@@ -494,3 +494,11 @@ DP - 6
 | --- | ----------- |---- | ----- | ------- |
 | 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [Python](./uglyNumber2.py) | 🟡 | [Section](./LeetNotes.md#ugly-number-ii)
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Python](./longestPalindromeString.py) | 🟡 | [Section](./LeetNotes.md#longest-palindromic-substring)
+
+Bit Manipulation - 1
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | [Python](./singleNumber.py) | 🟢 | [Section](./LeetNotes.md#single-number)
+| 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | [Python](./singleNumber3.py) | 🟡 | [Section](./LeetNotes.md#single-number-iii)
+| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Python](./divide.py) | 🟡 | [Section](./LeetNotes.md#divide-two-integers)
+| 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | [Python](./repeatedDNASequences.py) | 🟡 | [Section](./LeetNotes.md#repeated-dna-sequences)
