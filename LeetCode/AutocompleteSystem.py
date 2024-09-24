@@ -1,6 +1,6 @@
 from typing import List
 import heapq
-import defaultdict
+from collections import defaultdict
 
 
 class HeapElement:

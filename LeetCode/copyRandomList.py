@@ -1,5 +1,5 @@
 from typing import Optional
-import defaultdict
+from collections import defaultdict
 
 # Definition for a Node.
 

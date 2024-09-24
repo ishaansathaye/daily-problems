@@ -1,6 +1,5 @@
 from typing import Optional
-from collections import defaultdict
-import deque
+from collections import defaultdict, deque
 
 # Definition for a Node.
 

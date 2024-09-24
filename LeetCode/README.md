@@ -502,3 +502,15 @@ Bit Manipulation - 1
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/) | [Python](./singleNumber3.py) | 🟡 | [Section](./LeetNotes.md#single-number-iii)
 | 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [Python](./divide.py) | 🟡 | [Section](./LeetNotes.md#divide-two-integers)
 | 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | [Python](./repeatedDNASequences.py) | 🟡 | [Section](./LeetNotes.md#repeated-dna-sequences)
+
+Mock Interview #14 - TODO: Longest String Chain
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 1048 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [Python](./s30Mock/mock14/mock14-1.py) | 🟡 | [Section](./LeetNotes.md#longest-string-chain)
+
+Trees - 6 - TODO: Range Sum of BST
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 314 | [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [Python](./verticalOrder.py) | 🟡 | [Section](./LeetNotes.md#binary-tree-vertical-order-traversal)
+| 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](./serialize.py) | 🔴 | [Section](./LeetNotes.md#serialize-and-deserialize-binary-tree)
+| 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python](./rangeSumBST.py) | 🟢 | [Section](./LeetNotes.md#range-sum-of-bst)
