@@ -460,7 +460,7 @@ Backtracking - 4
 | 1087 | [Brace Expansion](https://leetcode.com/problems/brace-expansion/) | [Python](./braceExpansion.py) | 🟡 | [Section](./LeetNotes.md#brace-expansion)
 | - | [Optimal Placement of Buildings in a Grid](https://github.com/super30admin/Backtracking-4) | [Python](./optimalPlacement.py) | - | [Section](./LeetNotes.md#optimal-placement-of-buildings-in-a-grid)
 
-Greedy - 4 - TODO: Shortest Way to Form String
+Greedy - 4
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 1055 | [Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/) | [Python](./shortestWay.py) | 🟡 | [Section](./LeetNotes.md#shortest-way-to-form-string)
