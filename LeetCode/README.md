@@ -508,7 +508,7 @@ Mock Interview #14 - TODO: Longest String Chain
 | --- | ----------- |---- | ----- | ------- |
 | 1048 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) | [Python](./s30Mock/mock14/mock14-1.py) | 🟡 | [Section](./LeetNotes.md#longest-string-chain)
 
-Trees - 6 - TODO: Range Sum of BST
+Trees - 6
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 314 | [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [Python](./verticalOrder.py) | 🟡 | [Section](./LeetNotes.md#binary-tree-vertical-order-traversal)
