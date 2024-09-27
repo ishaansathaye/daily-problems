@@ -514,3 +514,15 @@ Trees - 6
 | 314 | [Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [Python](./verticalOrder.py) | 🟡 | [Section](./LeetNotes.md#binary-tree-vertical-order-traversal)
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](./serialize.py) | 🔴 | [Section](./LeetNotes.md#serialize-and-deserialize-binary-tree)
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python](./rangeSumBST.py) | 🟢 | [Section](./LeetNotes.md#range-sum-of-bst)
+
+Strings - 4 - TODO: Reorder Data in Log Files
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](./myAtoi.py) | 🟡 | [Section](./LeetNotes.md#string-to-integer-atoi)
+| 937 | [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) | [Python](./reorderLogFiles.py) | 🟡 | [Section](./LeetNotes.md#reorder-data-in-log-files)
+
+DFS - 3 - TODO: Matchsticks to Square
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 1088 | [Confusing Number II](https://leetcode.com/problems/confusing-number-ii/) | [Python](./confusingNumber2.py) | 🔴 | [Section](./LeetNotes.md#confusing-number-ii)
+| 473 | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) | [Python](./makesquare.py) | 🟡 | [Section](./LeetNotes.md#matchsticks-to-square)
