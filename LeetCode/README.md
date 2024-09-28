@@ -515,7 +515,7 @@ Trees - 6
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](./serialize.py) | 🔴 | [Section](./LeetNotes.md#serialize-and-deserialize-binary-tree)
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Python](./rangeSumBST.py) | 🟢 | [Section](./LeetNotes.md#range-sum-of-bst)
 
-Strings - 4 - TODO: Reorder Data in Log Files
+Strings - 4
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](./myAtoi.py) | 🟡 | [Section](./LeetNotes.md#string-to-integer-atoi)
@@ -526,3 +526,8 @@ DFS - 3 - TODO: Matchsticks to Square
 | --- | ----------- |---- | ----- | ------- |
 | 1088 | [Confusing Number II](https://leetcode.com/problems/confusing-number-ii/) | [Python](./confusingNumber2.py) | 🔴 | [Section](./LeetNotes.md#confusing-number-ii)
 | 473 | [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) | [Python](./makesquare.py) | 🟡 | [Section](./LeetNotes.md#matchsticks-to-square)
+
+Trie - 2
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 425 | [Word Squares](https://leetcode.com/problems/word-squares/) | [Python](./wordSquares.py) | 🔴 | [Section](./LeetNotes.md#word-squares)
