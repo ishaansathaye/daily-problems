@@ -531,3 +531,8 @@ Trie - 2
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 425 | [Word Squares](https://leetcode.com/problems/word-squares/) | [Python](./wordSquares.py) | 🔴 | [Section](./LeetNotes.md#word-squares)
+
+Mock Interview #15
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | [Python](./s30Mock/mock15/mock15-1.py) | 🟡 | [Section](./LeetNotes.md#find-and-replace-in-string)
