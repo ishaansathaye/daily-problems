@@ -536,3 +536,9 @@ Mock Interview #15
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 833 | [Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/) | [Python](./s30Mock/mock15/mock15-1.py) | 🟡 | [Section](./LeetNotes.md#find-and-replace-in-string)
+
+Hashing - 5
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 269 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [Python](./alienOrder.py) | 🔴 | [Section](./LeetNotes.md#alien-dictionary)
+| 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [Python](./isAlienSorted.py) | 🟢 | [Section](./LeetNotes.md#verifying-an-alien-dictionary)
