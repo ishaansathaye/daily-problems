@@ -531,6 +531,12 @@ Trie - 2
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 425 | [Word Squares](https://leetcode.com/problems/word-squares/) | [Python](./wordSquares.py) | 🔴 | [Section](./LeetNotes.md#word-squares)
+| 1023 | [Camelcase Matching](https://leetcode.com/problems/camelcase-matching/) | [Python](./camelMatch.py) | 🟡 | [Section](./LeetNotes.md#camelcase-matching)
+
+Heaps - 2
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Python](./topKFrequent.py) | 🟡 | [Section](./LeetNotes.md#top-k-frequent-elements)
 
 Mock Interview #15
 | Number | Problem | Solution | Difficulty | Takeaway
@@ -542,3 +548,8 @@ Hashing - 5
 | --- | ----------- |---- | ----- | ------- |
 | 269 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) | [Python](./alienOrder.py) | 🔴 | [Section](./LeetNotes.md#alien-dictionary)
 | 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/) | [Python](./isAlienSorted.py) | 🟢 | [Section](./LeetNotes.md#verifying-an-alien-dictionary)
+
+Graphs - 3
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 277 | [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) | [Python](./findCelebrity.py) | 🟡 | [Section](./LeetNotes.md#find-the-celebrity)
