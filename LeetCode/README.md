@@ -553,3 +553,15 @@ Graphs - 3
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 277 | [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) | [Python](./findCelebrity.py) | 🟡 | [Section](./LeetNotes.md#find-the-celebrity)
+
+Miscellaneous - 1 - TODO: Broken Calculator
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 991 | [Broken Calculator](https://leetcode.com/problems/broken-calculator/) | [Python](./brokenCalc.py) | 🟡 | [Section](./LeetNotes.md#broken-calculator)
+| 339 | [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/) | [Python](./depthSum.py) | 🟡 | [Section](./LeetNotes.md#nested-list-weight-sum)
+| 979 | [Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/) | [Python](./distributeCoins.py) | 🟡 | [Section](./LeetNotes.md#distribute-coins-in-binary-tree)
+
+Miscellaneous - 2
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 1032 | [Stream of Characters](https://leetcode.com/problems/stream-of-characters/) | [Python](./StreamChecker.py) | 🔴 | [Section](./LeetNotes.md#stream-of-characters)
