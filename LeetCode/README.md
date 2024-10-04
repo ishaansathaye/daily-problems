@@ -565,3 +565,15 @@ Miscellaneous - 2
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 1032 | [Stream of Characters](https://leetcode.com/problems/stream-of-characters/) | [Python](./StreamChecker.py) | 🔴 | [Section](./LeetNotes.md#stream-of-characters)
+
+Arrays - 7
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 243 | [Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/) | [Python](./shortestDistance.py) | 🟢 | [Section](./LeetNotes.md#shortest-word-distance)
+| 244 | [Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/) | [Python](./shortestDistance2.py) | 🟡 | [Section](./LeetNotes.md#shortest-word-distance-ii)
+| 245 | [Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/) | [Python](./shortestDistance3.py) | 🟡 | [Section](./LeetNotes.md#shortest-word-distance-iii)
+
+Miscellaneous - 4
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 911 | [Online Election](https://leetcode.com/problems/online-election/) | [Python](./TopVotedCandidate.py) | 🟡 | [Section](./LeetNotes.md#online-election)
