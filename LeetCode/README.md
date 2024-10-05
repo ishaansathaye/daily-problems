@@ -577,3 +577,9 @@ Miscellaneous - 4
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 911 | [Online Election](https://leetcode.com/problems/online-election/) | [Python](./TopVotedCandidate.py) | 🟡 | [Section](./LeetNotes.md#online-election)
+
+Miscellaneous - 3
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [Python](./shipWithinDays.py) | 🟡 | [Section](./LeetNotes.md#capacity-to-ship-packages-within-d-days)
+| 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Python](./reverseKGroup.py) | 🔴 | [Section](./LeetNotes.md#reverse-nodes-in-k-group)
