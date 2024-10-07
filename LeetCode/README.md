@@ -583,3 +583,8 @@ Miscellaneous - 3
 | --- | ----------- |---- | ----- | ------- |
 | 1011 | [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [Python](./shipWithinDays.py) | 🟡 | [Section](./LeetNotes.md#capacity-to-ship-packages-within-d-days)
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [Python](./reverseKGroup.py) | 🔴 | [Section](./LeetNotes.md#reverse-nodes-in-k-group)
+
+Mock Interview #16
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) | [Python](./s30Mock/mock16/mock16-1.py) | 🟡 | [Section](./LeetNotes.md#step-by-step-directions-from-a-binary-tree-node-to-another)
