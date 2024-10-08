@@ -577,6 +577,7 @@ Miscellaneous - 4
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 911 | [Online Election](https://leetcode.com/problems/online-election/) | [Python](./TopVotedCandidate.py) | 🟡 | [Section](./LeetNotes.md#online-election)
+| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Python](./comps/amazon/largestRectangleArea.py) | 🔴 | [Section](./LeetNotes.md#largest-rectangle-in-histogram)
 
 Miscellaneous - 3
 | Number | Problem | Solution | Difficulty | Takeaway
@@ -588,3 +589,13 @@ Mock Interview #16
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 2096 | [Step-By-Step Directions From a Binary Tree Node to Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) | [Python](./s30Mock/mock16/mock16-1.py) | 🟡 | [Section](./LeetNotes.md#step-by-step-directions-from-a-binary-tree-node-to-another)
+
+Miscellaneous - 5
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Python](./longestOnes.py) | 🟡 | [Section](./LeetNotes.md#max-consecutive-ones-iii)
+
+Stack - 3
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Python](./removeDuplicates.py) | 🟡 | [Section](./LeetNotes.md#remove-all-adjacent-duplicates-in-string-ii)
