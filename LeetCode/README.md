@@ -599,3 +599,11 @@ Stack - 3
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Python](./removeDuplicates.py) | 🟡 | [Section](./LeetNotes.md#remove-all-adjacent-duplicates-in-string-ii)
+
+Arrays - 6
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Python](./maxProfit.py) | 🟢 | [Section](./LeetNotes.md#best-time-to-buy-and-sell-stock)
+| 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Python](./maxProfit3.py) | 🔴 | [Section](./LeetNotes.md#best-time-to-buy-and-sell-stock-iii)
+| 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [Python](./maxProfit4.py) | 🔴 | [Section](./LeetNotes.md#best-time-to-buy-and-sell-stock-iv)
+| 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Python](./maxProfitCooldown.py) | 🟡 | [Section](./LeetNotes.md#best-time-to-buy-and-sell-stock-with-cooldown)
