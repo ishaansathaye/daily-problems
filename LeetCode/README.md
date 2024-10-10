@@ -554,7 +554,7 @@ Graphs - 3
 | --- | ----------- |---- | ----- | ------- |
 | 277 | [Find the Celebrity](https://leetcode.com/problems/find-the-celebrity/) | [Python](./findCelebrity.py) | 🟡 | [Section](./LeetNotes.md#find-the-celebrity)
 
-Miscellaneous - 1 - TODO: Broken Calculator
+Miscellaneous - 1
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 991 | [Broken Calculator](https://leetcode.com/problems/broken-calculator/) | [Python](./brokenCalc.py) | 🟡 | [Section](./LeetNotes.md#broken-calculator)
