@@ -521,7 +521,7 @@ Strings - 4
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Python](./myAtoi.py) | 🟡 | [Section](./LeetNotes.md#string-to-integer-atoi)
 | 937 | [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) | [Python](./reorderLogFiles.py) | 🟡 | [Section](./LeetNotes.md#reorder-data-in-log-files)
 
-DFS - 3 - TODO: Matchsticks to Square
+DFS - 3
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | 1088 | [Confusing Number II](https://leetcode.com/problems/confusing-number-ii/) | [Python](./confusingNumber2.py) | 🔴 | [Section](./LeetNotes.md#confusing-number-ii)
@@ -607,3 +607,8 @@ Arrays - 6
 | 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Python](./maxProfit3.py) | 🔴 | [Section](./LeetNotes.md#best-time-to-buy-and-sell-stock-iii)
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [Python](./maxProfit4.py) | 🔴 | [Section](./LeetNotes.md#best-time-to-buy-and-sell-stock-iv)
 | 309 | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Python](./maxProfitCooldown.py) | 🟡 | [Section](./LeetNotes.md#best-time-to-buy-and-sell-stock-with-cooldown)
+
+Miscellaneous - 6
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| - | [Array Threshold](https://github.com/super30admin/Misc-6) | - | - | [Section](./LeetNotes.md#array-threshold)
