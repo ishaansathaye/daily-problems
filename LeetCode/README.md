@@ -613,3 +613,9 @@ Miscellaneous - 6
 | Number | Problem | Solution | Difficulty | Takeaway
 | --- | ----------- |---- | ----- | ------- |
 | - | [Array Threshold](https://github.com/super30admin/Misc-6) | - | - | [Section](./LeetNotes.md#array-threshold)
+
+Competitions - Google - TODO: Both problems
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| - | [Sherlock and Cost](https://www.hackerrank.com/challenges/sherlock-and-cost/problem) | [Python](./comps/google/sherlockAndCost.py) | 🟡 | [Section](./LeetNotes.md#sherlock-and-cost)
+| 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) | [Python](./comps/google/read4.py) | 🟢 | [Section](./LeetNotes.md#read-n-characters-given-read4)
