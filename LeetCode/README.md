@@ -6,6 +6,7 @@
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Python](addTwoNum.py) | 🟡 | [Section](./LeetNotes.md#add-two-numbers)
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./lengthOfLongestSubstring.py) | 🟡 | [Section](./LeetNotes.md#longest-string-without-repeating-characters)
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./findMedianSortedArrays.py) | 🔴 | [Section](./LeetNotes.md#median-of-two-sorted-arrays)
+| 399 | [Evaluate Division](https://leetcode.com/problems/evaluate-division/) | [Python](./calcEquation.py) | 🟡 | [Section](./LeetNotes.md#evaluate-division)
 
 PreCourse - 1
 | Number | Problem | Solution | Difficulty | Takeaway
