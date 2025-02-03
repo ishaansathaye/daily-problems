@@ -7,6 +7,7 @@
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Python](./lengthOfLongestSubstring.py) | 🟡 | [Section](./LeetNotes.md#longest-string-without-repeating-characters)
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./findMedianSortedArrays.py) | 🔴 | [Section](./LeetNotes.md#median-of-two-sorted-arrays)
 | 399 | [Evaluate Division](https://leetcode.com/problems/evaluate-division/) | [Python](./calcEquation.py) | 🟡 | [Section](./LeetNotes.md#evaluate-division)
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./rotate-image.py) | 🟡 | [Section](./LeetNotes.md#rotate-image)
 
 PreCourse - 1
 | Number | Problem | Solution | Difficulty | Takeaway
@@ -619,3 +620,8 @@ Competitions - Google - TODO: Both problems
 | --- | ----------- |---- | ----- | ------- |
 | - | [Sherlock and Cost](https://www.hackerrank.com/challenges/sherlock-and-cost/problem) | [Python](./comps/google/sherlockAndCost.py) | 🟡 | [Section](./LeetNotes.md#sherlock-and-cost)
 | 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) | [Python](./comps/google/read4.py) | 🟢 | [Section](./LeetNotes.md#read-n-characters-given-read4)
+
+Mock Interview #17
+| Number | Problem | Solution | Difficulty | Takeaway
+| --- | ----------- |---- | ----- | ------- |
+| 92 | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Python](./s30Mock/mock17/mock17-1.py) | 🟡 | [Section](./LeetNotes.md#reverse-linked-list-ii)

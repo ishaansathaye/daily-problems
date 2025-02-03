@@ -23,3 +23,6 @@
         - *Uses list splicing, which is O(n), so use indices for true O(log(n+m))*
     - Helper method finds the kth element
     - Main method calls these functions depending on the length fo the combined arrays
+
+## Rotate Image
+Topics: *Matrix, Math, Transpose*
