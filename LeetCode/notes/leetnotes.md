@@ -26,6 +26,7 @@
 
 ## Rotate Image
 Topics: *Matrix, Math, Transpose*
+- Part of Ebay Question
 - Top left -> Top right -> Bottom right -> Bottom left -> Top left
 - top left (i, j) to top right (j, n-1-i)
 - top right (j, n-1-i) to bottom right (n-1-i, n-j-1)
