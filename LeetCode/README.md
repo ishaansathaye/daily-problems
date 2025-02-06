@@ -8,6 +8,7 @@
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Python](./findMedianSortedArrays.py) | 🔴 | [Section](./notes/leetnotes.md#median-of-two-sorted-arrays)
 | 399 | [Evaluate Division](https://leetcode.com/problems/evaluate-division/) | [Python](./calcEquation.py) | 🟡 | [Section](./notes/leetnotes.md#evaluate-division)
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./rotate-image.py) | 🟡 | [Section](./notes/leetnotes.md#rotate-image)
+| 1438 | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [Python](./longestSubarray.py) | 🟡 | [Section](./notes/leetnotes.md#longest-subarray)
 
 PreCourse - 1
 | Number | Problem | Solution | Difficulty | Takeaway

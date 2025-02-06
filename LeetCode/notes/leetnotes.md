@@ -46,3 +46,17 @@ Topics: *Matrix, Math, Transpose*
 ### Transpose and Reflect
 - Easier solution with just swapping elements at each position (diagonal really for transpose)
 - Reflect across by iterating over half the columns
+
+## Longest Subarray
+Topics: *Sliding Window, Two Pointers, Min-Max Heap*
+- Heap Solution
+    - Min and max heap to keep track of the smallest and largest elements in the window
+    - Until less than the limit, move the left pointer to the right; removing the element that caused the window to exceed the limit
+    - After remove elements from the heap that are no longer in the window
+        - anything less than left pointer
+- 2 Deque Solution
+    - Better time complexity since we don't have to remove elements from the heap
+    - Min and max for for increasing and decreasing elements
+    - Order the deques first by popping anything not following rule
+    - Move left pointer until the window is valid
+        - Pop only if element from maxQ or minQ is the left pointer element
