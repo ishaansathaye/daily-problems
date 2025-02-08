@@ -60,3 +60,12 @@ Topics: *Sliding Window, Two Pointers, Min-Max Heap*
     - Order the deques first by popping anything not following rule
     - Move left pointer until the window is valid
         - Pop only if element from maxQ or minQ is the left pointer element
+
+## Remove Element
+Topics: *Two Pointers, Array*
+- Two pointer solution
+    - start left at 0 and right at either end or even 0
+    - 0 then check if right is not val
+    - if not then swap to have all non vals on left side
+    - return left point since it is the length of the new array
+- Check edge cases such as length of 1 array when using original solution
