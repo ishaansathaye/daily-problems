@@ -62,10 +62,23 @@ Topics: *Sliding Window, Two Pointers, Min-Max Heap*
         - Pop only if element from maxQ or minQ is the left pointer element
 
 ## Remove Element
-Topics: *Two Pointers, Array*
+Topics: *Two Pointers*
 - Two pointer solution
     - start left at 0 and right at either end or even 0
     - 0 then check if right is not val
     - if not then swap to have all non vals on left side
     - return left point since it is the length of the new array
 - Check edge cases such as length of 1 array when using original solution
+
+## Minimum Size Subarray Sum
+Topics: *Sliding Window, Binary Search*
+- Binary Search Solution is O(nlogn)
+- Whenever contiguous subarray getting asked -> think of sliding window
+- **Read and understand question fully**
+    - Asking for min length and **greater than or equal to** sum
+- Solution just uses rolling sum with removing elements from left side
+- Faster solution uses inside while loop to shorten window size in 1 pass
+
+## Is Subsequence
+Topics: *Two Pointers*
+- Straightforward solution with 1 pointer on each string
