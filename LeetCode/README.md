@@ -14,6 +14,7 @@
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [Python](./isSubsequence.py) | 🟢 | [Section](./notes/leetnotes.md#is-subsequence)
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [Python](./isHappy.py) | 🟢 | [Section](./notes/leetnotes.md#is-happy-number)
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python](./convert.py) | 🟡 | [Section](./notes/leetnotes.md#zigzag-conversion)
+| 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](./setZeroes.py) | 🟡 | [Section](./notes/leetnotes.md#set-matrix-zeroes)
 
 PreCourse - 1
 | Number | Problem | Solution | Difficulty | Takeaway

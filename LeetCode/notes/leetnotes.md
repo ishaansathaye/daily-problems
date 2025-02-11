@@ -124,3 +124,16 @@ Topics: _Array, String, Math, Direction_
   - Figure out that first and last rows have identical pattern jumps
   - In between rows have jumps calculated based on characters in each section
 - First solution is O(#rows\*n) and second is O(n)
+
+## Set Matrix Zeroes
+
+Topics: _Matrix_
+
+- Original solution straightforward with indicators in the matrix
+  - Second pass to replace indicators with 0s
+  - Faster solution does not need to go through all elements
+- Faster solution
+  - Have different checks for first row and column
+  - Only change the first element in the row and column to 0 if 0 is found
+  - Another pass to change elements to 0 based on first row and column
+  - 2 checks after to check if first row and column need to be changed to 0
