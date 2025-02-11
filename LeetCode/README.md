@@ -12,6 +12,8 @@
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Python](./removeElement.py) | 🟢 | [Section](./notes/leetnotes.md#remove-element)
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Python](./minSubArrayLen.py) | 🟡 | [Section](./notes/leetnotes.md#minimum-size-subarray-sum)
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [Python](./isSubsequence.py) | 🟢 | [Section](./notes/leetnotes.md#is-subsequence)
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [Python](./isHappy.py) | 🟢 | [Section](./notes/leetnotes.md#is-happy-number)
+| 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python](./convert.py) | 🟡 | [Section](./notes/leetnotes.md#zigzag-conversion)
 
 PreCourse - 1
 | Number | Problem | Solution | Difficulty | Takeaway
