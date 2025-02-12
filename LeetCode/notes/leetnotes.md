@@ -137,3 +137,15 @@ Topics: _Matrix_
   - Only change the first element in the row and column to 0 if 0 is found
   - Another pass to change elements to 0 based on first row and column
   - 2 checks after to check if first row and column need to be changed to 0
+
+## Merge Intervals
+
+Topics: _Array, Sorting, Rivian_
+
+- Sorting by starting interval values
+- Checking if the end of the current interval is greater than the start of the next interval
+- If so, then merge the intervals
+  - Max is comparing between end of array and interval
+- Alternate Solution
+  - Brute Force: compare each interval
+  - Create graph with intervals as nodes and edges between overlapping intervals

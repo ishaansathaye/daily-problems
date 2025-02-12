@@ -15,6 +15,7 @@
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [Python](./isHappy.py) | 🟢 | [Section](./notes/leetnotes.md#is-happy-number)
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python](./convert.py) | 🟡 | [Section](./notes/leetnotes.md#zigzag-conversion)
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](./setZeroes.py) | 🟡 | [Section](./notes/leetnotes.md#set-matrix-zeroes)
+| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./mergeIntervals.py) | 🟡 | [Section](./notes/leetnotes.md#merge-intervals)
 
 PreCourse - 1
 | Number | Problem | Solution | Difficulty | Takeaway
