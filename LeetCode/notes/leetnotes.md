@@ -140,7 +140,7 @@ Topics: _Matrix_
 
 ## Merge Intervals
 
-Topics: _Array, Sorting, Rivian_
+Topics: _Array, Sorting, Intervals, Rivian_
 
 - Sorting by starting interval values
 - Checking if the end of the current interval is greater than the start of the next interval
@@ -149,3 +149,17 @@ Topics: _Array, Sorting, Rivian_
 - Alternate Solution
   - Brute Force: compare each interval
   - Create graph with intervals as nodes and edges between overlapping intervals
+
+## Min Stack
+Topics: _Stack, Design_
+- Original sol is just have pairs of values
+    - first is val and second is the min until that point
+    - __Idea is to only keep track of min of numbers below that value__
+- Alternate solution is to use 2 stacks
+    - 1 main stack and the other for min values
+    - Push to both stacks if new min is found
+    - Pop if the main stack val is equal to the min stack val
+- Alterante solution improvement
+    - For the minstack push (min, counter)
+    - Pop if counter is 0, helps reduce amount of elements in the min stack
+    - such as duplicate min values being pushed

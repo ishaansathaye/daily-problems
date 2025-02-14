@@ -16,6 +16,7 @@
 | 6 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Python](./convert.py) | 🟡 | [Section](./notes/leetnotes.md#zigzag-conversion)
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](./setZeroes.py) | 🟡 | [Section](./notes/leetnotes.md#set-matrix-zeroes)
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./mergeIntervals.py) | 🟡 | [Section](./notes/leetnotes.md#merge-intervals)
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./MinStack.py) | 🟡 | [Section](./notes/leetnotes.md#min-stack)
 
 PreCourse - 1
 | Number | Problem | Solution | Difficulty | Takeaway
