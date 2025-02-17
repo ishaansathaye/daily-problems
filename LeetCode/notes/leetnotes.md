@@ -151,15 +151,64 @@ Topics: _Array, Sorting, Intervals, Rivian_
   - Create graph with intervals as nodes and edges between overlapping intervals
 
 ## Min Stack
+
 Topics: _Stack, Design_
+
 - Original sol is just have pairs of values
-    - first is val and second is the min until that point
-    - __Idea is to only keep track of min of numbers below that value__
+  - first is val and second is the min until that point
+  - **Idea is to only keep track of min of numbers below that value**
 - Alternate solution is to use 2 stacks
-    - 1 main stack and the other for min values
-    - Push to both stacks if new min is found
-    - Pop if the main stack val is equal to the min stack val
+  - 1 main stack and the other for min values
+  - Push to both stacks if new min is found
+  - Pop if the main stack val is equal to the min stack val
 - Alterante solution improvement
-    - For the minstack push (min, counter)
-    - Pop if counter is 0, helps reduce amount of elements in the min stack
-    - such as duplicate min values being pushed
+  - For the minstack push (min, counter)
+  - Pop if counter is 0, helps reduce amount of elements in the min stack
+  - such as duplicate min values being pushed
+
+## Reverse Linked List II
+
+Topics: _Linked List_
+
+- Remember to keep track of node before left node and left node
+  - previousLeft's connection becomes the end of the reversed list
+  - take care of case when previousLeft is None
+    - in that case the head becomes the end of the reversed list
+  - left node becomes the end of the reversed list
+    - so attach its next to the curr pointer after reversing
+- Reverse the linked list from left to right
+  - use prev, curr, and fast pointers
+  - update fast first so that fast.next cannot be null
+  - algorithm to reversse is similar to reversing a linked list #206
+  - at the end prev points to end of reversed list and curr is at 1 past the end
+
+## Flatten Binary Tree to Linked List
+
+Topics: _Binary Tree, DFS, Morris Traversal_
+
+- Idea is to flatten from a bottom up approach
+- Can be done through DFS in a pre-order or post-order traversal
+- Pre-order Traversal
+  - Check if left subtree exists
+  - Make proper connections since at root node
+  - left subtree node's right becomes the right subtree
+  - root's right connection becomes left subtree
+  - root's left becomes None
+  - **Return the tail of the flattened resulting subtree**
+    - so parent recursive call knows where to attach the right subtree
+- Post-order Traversal
+  - Straightforward of keeping track of previous node from previous recursion call
+- Iterative Solution
+  - Uses stack data structure to simulate recursion stack
+  - Keep track of tuple that has start/end
+    - Start means have not processed the node, left first if exists then right
+    - End means done processing subtree of node and to re-wire connections
+- Morris Traversal -> O(1) Space
+  - Idea is to find the rightmost node of the left subtree
+  - Not the actual rightmost node but until the rightmost node is not None
+    - kind of greedy approach
+  - Once found then make the correct connections to the right subtree
+  - Continue to the right subtree
+    - Tree structure has changed so that the current node has a new right subtree
+    - Which is why this algorithm works
+  - Continue this until the current node is None
