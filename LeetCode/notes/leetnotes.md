@@ -212,3 +212,16 @@ Topics: _Binary Tree, DFS, Morris Traversal_
     - Tree structure has changed so that the current node has a new right subtree
     - Which is why this algorithm works
   - Continue this until the current node is None
+
+## Binary Tree Zigzag Level Order Traversal
+
+Topics: _Binary Tree, BFS, DFS, Queue_
+
+- Original solution was just regular **template level order BFS** and reversing based on flag
+  - Can also use deque for temp list to appendleft or append
+- BFS with 1 loop
+  - Use a delimiter to separate levels and dequeues to append at beginning or end
+- DFS
+  - Uses **template level order DFS**
+  - Keep track of level and append to the correct level list
+  - These lists are actually deques to appendleft or append

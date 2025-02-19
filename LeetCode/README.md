@@ -17,6 +17,7 @@
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [Python](./setZeroes.py) | 🟡 | [Section](./notes/leetnotes.md#set-matrix-zeroes)
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Python](./mergeIntervals.py) | 🟡 | [Section](./notes/leetnotes.md#merge-intervals)
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./MinStack.py) | 🟡 | [Section](./notes/leetnotes.md#min-stack)
+| 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Python](./zigzagLevelOrder.py) | 🟡 | [Section](./notes/leetnotes.md#binary-tree-zigzag-level-order-traversal)
 
 PreCourse - 1
 | Number | Problem | Solution | Difficulty | Takeaway
