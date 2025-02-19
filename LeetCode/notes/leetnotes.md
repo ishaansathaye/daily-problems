@@ -184,7 +184,7 @@ Topics: _Linked List_
 
 ## Flatten Binary Tree to Linked List
 
-Topics: _Binary Tree, DFS, Morris Traversal_
+Topics: _Binary Tree, DFS, Morris Traversal, Pre-order Traversal, Post-order Traversal_
 
 - Idea is to flatten from a bottom up approach
 - Can be done through DFS in a pre-order or post-order traversal
@@ -215,7 +215,7 @@ Topics: _Binary Tree, DFS, Morris Traversal_
 
 ## Binary Tree Zigzag Level Order Traversal
 
-Topics: _Binary Tree, BFS, DFS, Queue_
+Topics: _Binary Tree, BFS, DFS, Queue, Level Order Traversal_
 
 - Original solution was just regular **template level order BFS** and reversing based on flag
   - Can also use deque for temp list to appendleft or append
@@ -225,3 +225,20 @@ Topics: _Binary Tree, BFS, DFS, Queue_
   - Uses **template level order DFS**
   - Keep track of level and append to the correct level list
   - These lists are actually deques to appendleft or append
+
+## Minimum Absolute Difference in BST
+
+Topics: _Binary Search Tree, In-order Traversal, BFS, DFS_
+
+- Original solution uses level order traversal using bfs
+  - Then sorts and uses 2 pointers to find the minimum difference
+  - O(nlogn) time complexity
+- BFS in order traversal
+  - Already sorted so faster with O(n) time complexity
+- DFS in order traversal with list
+  - Same as BFS but uses list instead of deque -> O(n) time complexity
+- DFS in order traversal with no list
+  - Keep track of the previous node
+  - Calculate the difference between the current node and previous node
+  - No need to keep track of all the nodes in a list
+  - O(n) time complexity
