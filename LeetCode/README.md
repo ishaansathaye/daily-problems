@@ -19,6 +19,7 @@
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Python](./MinStack.py) | 🟡 | [Section](./notes/leetnotes.md#min-stack)
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Python](./zigzagLevelOrder.py) | 🟡 | [Section](./notes/leetnotes.md#binary-tree-zigzag-level-order-traversal)
 | 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) | [Python](./getMinimumDifference.py) | 🟢 | [Section](./notes/leetnotes.md#minimum-absolute-difference-in-bst)
+| 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Python](./getMinimumDifference.py) | 🟢 | [Section](./notes/leetnotes.md#minimum-absolute-difference-in-bst)
 
 PreCourse - 1
 | Number | Problem | Solution | Difficulty | Takeaway
