@@ -33,7 +33,7 @@ class Solution:
         return result
 
     def _numIslands(self, grid: List[List[str]]) -> int:
-        '''BFS'''
+        '''DFS'''
         # null check
         dirs = [(0, 1), (0, -1), (-1, 0), (1, 0)]
         m = len(grid)

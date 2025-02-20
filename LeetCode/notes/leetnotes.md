@@ -242,3 +242,20 @@ Topics: _Binary Search Tree, In-order Traversal, BFS, DFS_
   - Calculate the difference between the current node and previous node
   - No need to keep track of all the nodes in a list
   - O(n) time complexity
+
+## Surrounded Regions
+
+Topics: _Matrix, DFS, BFS, Dirs_
+
+- **Think of how to reduce problem: make all border O's to something else**
+  - Also mark its neighbors through DFS or BFS
+  - Then go through matrix again and just change O's to X's and the other value to O's
+- **Uses template DFS and BFS**
+  - Example is #200 Number of Islands
+- **DFS**
+  - For loop on dirs to check all neighbors and then bounds check
+  - Looping on the borders
+- **BFS**
+  - Uses q to keep track of all the neighbors
+  - Mark first then loop on dirs to check all neighbors
+  - Has bounds check as well to add to the queue
