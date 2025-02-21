@@ -259,3 +259,14 @@ Topics: _Matrix, DFS, BFS, Dirs_
   - Uses q to keep track of all the neighbors
   - Mark first then loop on dirs to check all neighbors
   - Has bounds check as well to add to the queue
+
+## Minimum Genetic Mutation
+
+Topics: _BFS, Graph, Queue, String, Set_
+
+- Had to think of the entire string as a node in the graph
+  - The edges are characters which are the mutations that connect the next gene
+  - Keep visited set to keep track of visited nodes
+  - Queue for BFS with tuple that has the number of steps from the start gene
+- Solution makes all the possible mutations by replacing each character with 4 possible choices
+- Then check if not in set and in the bank to add to set and queue

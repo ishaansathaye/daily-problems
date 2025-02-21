@@ -21,6 +21,7 @@
 | 530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) | [Python](./getMinimumDifference.py) | 🟢 | [Section](./notes/leetnotes.md#minimum-absolute-difference-in-bst)
 | 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Python](./getMinimumDifference.py) | 🟢 | [Section](./notes/leetnotes.md#minimum-absolute-difference-in-bst)
 | 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Python](./solve.py) | 🟡 | [Section](./notes/leetnotes.md#surrounded-regions)
+| 433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Python](./minMutation.py) | 🟡 | [Section](./notes/leetnotes.md#minimum-genetic-mutation)
 
 PreCourse - 1
 | Number | Problem | Solution | Difficulty | Takeaway
