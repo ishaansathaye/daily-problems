@@ -22,6 +22,7 @@
 | 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Python](./getMinimumDifference.py) | 🟢 | [Section](./notes/leetnotes.md#minimum-absolute-difference-in-bst)
 | 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Python](./solve.py) | 🟡 | [Section](./notes/leetnotes.md#surrounded-regions)
 | 433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Python](./minMutation.py) | 🟡 | [Section](./notes/leetnotes.md#minimum-genetic-mutation)
+| 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Python](./WordDictionary.py) | 🟡 | [Section](./notes/leetnotes.md#design-add-and-search-words-data-structure)
 
 PreCourse - 1
 | Number | Problem | Solution | Difficulty | Takeaway

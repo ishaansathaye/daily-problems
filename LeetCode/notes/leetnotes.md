@@ -270,3 +270,15 @@ Topics: _BFS, Graph, Queue, String, Set_
   - Queue for BFS with tuple that has the number of steps from the start gene
 - Solution makes all the possible mutations by replacing each character with 4 possible choices
 - Then check if not in set and in the bank to add to set and queue
+
+## Design Add and Search Words Data Structure
+
+Topics: _Trie, DFS, Design_
+
+- Trie used to store words -> **use template**
+  - Dictionary gets faster runtime rather than list with `ord(c) - ord('a')`
+- If the character is dot then dfs on all the children
+  - dfs using the trie node and the index of the word
+  - basically 1 char after in the word gets dfs on
+  - if the word is found then return True
+- Rest of solution is a simple search() of tempalate trie
