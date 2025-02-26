@@ -282,3 +282,17 @@ Topics: _Trie, DFS, Design_
   - basically 1 char after in the word gets dfs on
   - if the word is found then return True
 - Rest of solution is a simple search() of tempalate trie
+
+## Letter Combinations of a Phone Number
+
+Topics: _Backtracking_
+
+- **Backtracking** template
+  - Recursion
+  - Have a path (combs), idex, res, and what youare iterating on
+  - Base case when you reached the length of the input
+    - append to the result
+  - Get the string from the mapping and iterate over it
+  - **Action**: append to the path
+  - **Recursion**: call the function with the next index of the input
+  - **Backtrack**: remove the last element from the path
