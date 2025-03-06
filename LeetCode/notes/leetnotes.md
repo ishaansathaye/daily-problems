@@ -289,10 +289,34 @@ Topics: _Backtracking_
 
 - **Backtracking** template
   - Recursion
-  - Have a path (combs), idex, res, and what youare iterating on
+  - Have a path (combs), idex, res, and what you are iterating on
   - Base case when you reached the length of the input
     - append to the result
   - Get the string from the mapping and iterate over it
   - **Action**: append to the path
   - **Recursion**: call the function with the next index of the input
   - **Backtrack**: remove the last element from the path
+
+## Sort List
+
+Topics: _Linked List, Merge Sort, Slow-Fast Pointers_
+
+- Original solution uses extra space to store the linked list values
+  - Then sorts the list and creates a new linked list
+  - Can also just overwrite the values in the linked list for faster runtime
+- Want better space complexity so use merge sort
+  - First Merge Sort Solution: Top-Down (O(logn) space)
+    - Space from the length of the tree (recursion stack)
+    - Split linked list into 2 halves by using slow and fast pointers to get middle of linked list
+      - ensure links are severed to create 2 separate linked lists
+    - Recursively call function of both halves
+    - Merge the 2 halves together by comparing the values
+      - Have a dummy node for the head and tail to keep updating
+      - Update tail to next node, attach the unfinished linked list to the tail
+      - Return element after the dummy node
+  - Second Merge Sort Solution: Bottom-Up (O(1) space)
+    - start with size 1 and then double the size each iteration
+    - same getMid function but with a size parameter
+      - getting the mid and end of the linked list
+    - merging is a bit different where you have to keep track of the previous node
+      - to attach the merged linked list
