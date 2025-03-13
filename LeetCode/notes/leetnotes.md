@@ -179,7 +179,7 @@ Topics: _Linked List_
 - Reverse the linked list from left to right
   - use prev, curr, and fast pointers
   - update fast first so that fast.next cannot be null
-  - algorithm to reversse is similar to reversing a linked list #206
+  - algorithm to reverse is similar to reversing a linked list #206
   - at the end prev points to end of reversed list and curr is at 1 past the end
 
 ## Flatten Binary Tree to Linked List
@@ -299,7 +299,7 @@ Topics: _Backtracking_
 
 ## Sort List
 
-Topics: _Linked List, Merge Sort, Slow-Fast Pointers_
+Topics: _Linked List, Merge Sort, Slow-Fast Pointers, Divide and Conquer_
 
 - Original solution uses extra space to store the linked list values
   - Then sorts the list and creates a new linked list
@@ -320,3 +320,19 @@ Topics: _Linked List, Merge Sort, Slow-Fast Pointers_
       - getting the mid and end of the linked list
     - merging is a bit different where you have to keep track of the previous node
       - to attach the merged linked list
+
+## Maximum Sum Circular Subarray
+
+Topics: _Array, Kadane's Algorithm, Running Sum_
+
+- Use kadane's algorithm to find the maximum subarray sum
+  - First part is same as problem #53 Maximum Subarray
+- Now find the maximum sum of the circular array
+  - do this by finding the total sum
+  - then find the minimum sum of the subarray
+    - a continugous subarray that is the minimum sum
+  - subtract the values to get the maximum sum of the circular array
+  - do this because you want to maxmimize sum by minimizing "missing component"
+- Consider negative numbers edge case
+  - return the minimum of the circular sum and maximum subarray sum
+  - else just return them maximum of the two

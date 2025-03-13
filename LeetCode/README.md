@@ -24,6 +24,8 @@
 | 433 | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) | [Python](./minMutation.py) | 🟡 | [Section](./notes/leetnotes.md#minimum-genetic-mutation)
 | 211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Python](./WordDictionary.py) | 🟡 | [Section](./notes/leetnotes.md#design-add-and-search-words-data-structure)
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Python](./letterCombinations.py) | 🟡 | [Section](./notes/leetnotes.md#letter-combinations-of-a-phone-number)
+| 148 | [Sort List](https://leetcode.com/problems/sort-list/) | [Python](./sortList.py) | 🟡 | [Section](./notes/leetnotes.md#sort-list)
+| 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) | [Python](./maxSubarraySumCircular.py) | 🟡 | [Section](./notes/leetnotes.md#maximum-sum-circular-subarray)
 
 PreCourse - 1
 | Number | Problem | Solution | Difficulty | Takeaway
