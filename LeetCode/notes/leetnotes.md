@@ -336,3 +336,15 @@ Topics: _Array, Kadane's Algorithm, Running Sum_
 - Consider negative numbers edge case
   - return the minimum of the circular sum and maximum subarray sum
   - else just return them maximum of the two
+
+## Find Peak Element
+
+Topics: _Binary Search_
+
+- **Binary Search** template
+  - middle element formula: `mid = left + (right - left) // 2`
+  - idx 0 check -> mid has to be greater than mid + 1
+  - idx n-1 check -> mid has to be greater than mid - 1
+  - both above checks because boundaries are negative infinity
+  - move left if left neighbor is greater
+  - move right if right neighbor is greater
