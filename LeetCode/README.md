@@ -26,6 +26,7 @@
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Python](./letterCombinations.py) | 🟡 | [Section](./notes/leetnotes.md#letter-combinations-of-a-phone-number)
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | [Python](./sortList.py) | 🟡 | [Section](./notes/leetnotes.md#sort-list)
 | 918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) | [Python](./maxSubarraySumCircular.py) | 🟡 | [Section](./notes/leetnotes.md#maximum-sum-circular-subarray)
+| 373 | [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Python](./kSmallestPairs.py) | 🟡 | [Section](./notes/leetnotes.md#find-k-pairs-with-smallest-sums)
 
 PreCourse - 1
 | Number | Problem | Solution | Difficulty | Takeaway

@@ -161,7 +161,7 @@ Topics: _Stack, Design_
   - 1 main stack and the other for min values
   - Push to both stacks if new min is found
   - Pop if the main stack val is equal to the min stack val
-- Alterante solution improvement
+- Alternate solution improvement
   - For the minstack push (min, counter)
   - Pop if counter is 0, helps reduce amount of elements in the min stack
   - such as duplicate min values being pushed
@@ -348,3 +348,22 @@ Topics: _Binary Search_
   - both above checks because boundaries are negative infinity
   - move left if left neighbor is greater
   - move right if right neighbor is greater
+
+## Find K Pairs with Smallest Sums
+
+Topics: _Heap_
+
+- First attempt
+  - tried using max heap to get the smallest pairs (popping if it reached k)
+  - did not work due to not being able to keep track of previous pairs
+  - needed a set too to keep track of the pairs already seen
+- Solution using min heap
+  - end is creating a min heap with k pairs
+  - push the first 0 indexed pair into the heap
+  - have a visited set since we are building on popped indices
+  - append to the answer list the popped pairs
+  - take the indices of the popped pair and create combs for next pairs
+    - +1, +0 and +0, +1 for the next pairs
+    - check if the indices are in bounds and not in the visited set
+  - reason for +1, +0 and +0, +1 is to get the next pairs and combinations based on the previous iterations
+  - push the new pairs into the heap and add to the visited set
