@@ -367,3 +367,17 @@ Topics: _Heap_
     - check if the indices are in bounds and not in the visited set
   - reason for +1, +0 and +0, +1 is to get the next pairs and combinations based on the previous iterations
   - push the new pairs into the heap and add to the visited set
+
+## Find First and Last Position of Element in Sorted Array
+
+Topics: _Binary Search_
+
+- **Binary Search** template
+- First binary search to find the leftmost index
+  - if mid is the target then need 2 checks
+    - if mid is first index or the number before it is not the target -> return mid
+    - else we have not found the leftmost index so move left
+- Second binary search to find the rightmost index
+  - 2 checks similar
+    - end index or the number after it is not the target -> return mid
+- only do the second binary search if the first one is not -1 or not None
